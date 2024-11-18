@@ -1,3 +1,125 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+$textColor: white;
+$headerColor: rgb(37, 42, 33);
+$headerHoverColor: rgb(94, 107, 84);
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(11deg, #063314, #1B3523, #32351B, #5F671E);
+    background-size: 800% 800%;
+    animation: GradientBackground 15s ease infinite;
+    color: $textColor;
+    font-family: "Geist Mono", monospace;
+
+}
+
+@keyframes GradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $textColor;
+}
+
+
+
+header {
+    position: fixed;
+    height: 50px;
+
+    background-color: black;
+
+    nav {
+
+
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+
+            gap: 1px;
+
+            li {
+                background-color: $headerColor;
+                display: flex;
+
+
+
+                :hover {
+                    background-color: $headerHoverColor;
+
+
+                }
+
+                a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+
+
+            }
+        }
+    }
+}
+
+section {
+    height: 100vh;
+
+}
+
+.intro {
+
+
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+
+
+    h1 {
+        grid-area: 3 / 2 / 5 / 4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    span {
+        grid-area: 4 / 4 / 6 / 6;
+        display: flex;
+        font-size: 2em;
+        font-weight: lighter;
+
+    }
+
+    .img1 {
+        grid-area: 5 / 2 / 7 / 4;
+    }
 }
