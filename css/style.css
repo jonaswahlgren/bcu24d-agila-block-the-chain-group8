@@ -11,24 +11,15 @@ html {
 }
 
 body {
-  background: linear-gradient(11deg, #063314, #1B3523, #32351B, #5F671E);
-  background-size: 800% 800%;
-  animation: GradientBackground 15s ease infinite;
+  background: #22c1c3;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #22c1c3, #fdbb2d);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   font-family: "Geist Mono", monospace;
 }
 
-@keyframes GradientBackground {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 a {
   text-decoration: none;
   color: white;
@@ -37,13 +28,12 @@ a {
 header {
   position: fixed;
   height: 50px;
-  background-color: black;
 }
 header nav ul {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
-  gap: 1px;
+  gap: 3px;
 }
 header nav ul li {
   background-color: rgb(37, 42, 33);
@@ -60,29 +50,74 @@ header nav ul li a {
 
 section {
   height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  gap: 5px 20px;
 }
 
-.intro {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(8, 1fr);
-  grid-column-gap: 30px;
-  grid-row-gap: 10px;
-}
-.intro h1 {
-  grid-area: 3/2/5/4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+h2 {
   font-size: 3rem;
-  text-align: center;
+}
+
+.intro h1 {
+  grid-area: 3/4/6/8;
+  font-size: 4rem;
+  text-align: right;
+}
+.intro .img-container {
+  grid-area: 6/4/10/8;
 }
 .intro span {
-  grid-area: 4/4/6/6;
-  display: flex;
-  font-size: 2em;
+  grid-area: 5/8/8/11;
+  font-size: 2.5rem;
   font-weight: lighter;
 }
-.intro .img1 {
-  grid-area: 5/2/7/4;
+
+.page2 .img-container {
+  grid-area: 5/3/10/6;
+}
+.page2 p {
+  grid-area: 5/6/10/11;
+}
+.page2 h2 {
+  grid-area: 3/3/5/8;
+  text-align: center;
+}
+
+.page3 .left {
+  grid-area: 6/4/11/8;
+}
+.page3 h2 {
+  grid-area: 4/4/6/8;
+}
+.page3 ul {
+  grid-area: 3/3/11/4;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+.page3 .right1 {
+  grid-area: 4/8/8/11;
+}
+.page3 .right2 {
+  grid-area: 8/8/10/11;
+}
+
+.page4 .left {
+  grid-area: 6/4/11/8;
+}
+.page4 h2 {
+  grid-area: 4/4/6/8;
+}
+.page4 .right1 {
+  grid-area: 2/8/5/10;
+}
+.page4 .img-container {
+  grid-area: 5/8/8/10;
+}
+.page4 .right2 {
+  grid-area: 8/8/10/10;
 }/*# sourceMappingURL=style.css.map */

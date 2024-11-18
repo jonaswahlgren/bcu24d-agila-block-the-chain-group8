@@ -8,4 +8,5 @@
     återberättat möte mellan jonas och matilda från igår 17/11
 
     jonas
-    skapat skelettet av hemsidan
+    skapat skelettet av hemsidan, header och grid layout för de olika sidorna
+    
