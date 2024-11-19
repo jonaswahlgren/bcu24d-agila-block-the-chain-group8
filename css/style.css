@@ -1,159 +1,125 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background: #22c1c3;
-  /* fallback for old browsers */
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #22c1c3, #fdbb2d);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: white;
-  font-family: "Geist Mono", monospace;
-}
-
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-header {
-  position: fixed;
-  height: 50px;
-}
-header nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  gap: 3px;
-}
-header nav ul li {
-  background-color: rgb(37, 42, 33);
-  display: flex;
-}
-header nav ul li :hover {
-  background-color: rgb(94, 107, 84);
-}
-header nav ul li a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-section {
-  height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  gap: 5px 20px;
-}
-
-h2 {
-  font-size: 3rem;
-}
-
-.intro h1 {
-  grid-area: 4/4/7/8;
-  font-size: 4rem;
-  text-align: right;
-}
-.intro .img-container {
-  grid-area: 7/4/11/8;
-}
-.intro span {
-  grid-area: 6/8/9/11;
-  font-size: 2.5rem;
-  font-weight: lighter;
-}
-
-.page2 .img-container {
-  grid-area: 5/3/10/6;
-}
-.page2 p {
-  grid-area: 5/6/10/11;
-}
-.page2 h2 {
-  grid-area: 3/3/5/8;
-  text-align: center;
-}
-
-.page3 .left {
-  grid-area: 6/4/11/8;
-}
-.page3 h2 {
-  grid-area: 4/4/6/8;
-}
-.page3 ul {
-  grid-area: 3/3/11/4;
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  justify-content: center;
-  align-items: center;
-}
-.page3 .right1 {
-  grid-area: 4/8/8/11;
-}
-.page3 .right2 {
-  grid-area: 8/8/10/11;
-}
-
-.page4 .left {
-  grid-area: 6/4/11/8;
-}
-.page4 h2 {
-  grid-area: 4/4/6/8;
-}
-.page4 .right1 {
-  grid-area: 2/8/5/10;
-}
-.page4 .img-container {
-  grid-area: 5/8/8/10;
-}
-.page4 .right2 {
-  grid-area: 8/8/10/10;
+@media (min-width: 1025px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: #22c1c3;
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #22c1c3, #fdbb2d);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-family: "Geist Mono", monospace;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  header {
+    position: fixed;
+    height: 50px;
+  }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3px;
+  }
+  header nav ul li {
+    background-color: rgb(37, 42, 33);
+    display: flex;
+  }
+  header nav ul li :hover {
+    background-color: rgb(94, 107, 84);
+  }
+  header nav ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 5px 20px;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  .intro h1 {
+    grid-area: 4/4/7/8;
+    font-size: 4rem;
+    text-align: right;
+  }
+  .intro .img-container {
+    grid-area: 7/4/11/8;
+  }
+  .intro span {
+    grid-area: 6/8/9/11;
+    font-size: 2.5rem;
+    font-weight: lighter;
+  }
+  .page2 .img-container {
+    grid-area: 5/3/10/6;
+  }
+  .page2 p {
+    grid-area: 5/6/10/11;
+  }
+  .page2 h2 {
+    grid-area: 3/3/5/8;
+    text-align: center;
+  }
+  .page3 .left {
+    grid-area: 6/4/11/8;
+  }
+  .page3 h2 {
+    grid-area: 4/4/6/8;
+  }
+  .page3 ul {
+    grid-area: 3/3/11/4;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .page3 .right1 {
+    grid-area: 4/8/8/11;
+  }
+  .page3 .right2 {
+    grid-area: 8/8/10/11;
+  }
+  .page4 .left {
+    grid-area: 6/4/11/8;
+  }
+  .page4 h2 {
+    grid-area: 4/4/6/8;
+  }
+  .page4 .right1 {
+    grid-area: 2/8/5/10;
+  }
+  .page4 .img-container {
+    grid-area: 5/8/8/10;
+  }
+  .page4 .right2 {
+    grid-area: 8/8/10/10;
+  }
+  footer {
+    display: flex;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    background-color: rgb(37, 42, 33);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
-
-
-footer {
-  display:flex;
-  height: 10%;
-  background-color: rgb(37, 42, 33); 
-  color: white; 
-  text-align: center; 
-  padding: 15px; 
-  white-space: nowrap;
-  bottom: 0;
-  
-  
-}
-
-.copyright {
-  display: flex;
-  word-wrap: break-word;
-  word-break:break-all;
-}
-
-.footer-list {
-  display: flex;
-  position: relative;
-  list-style: none;
-  min-width: 70%;
-  align-content: space-around;
-  justify-content:flex-end;
-
-}
-
-.footer-list li {
-  display: inline-block;
-  width: 20%;
-}
