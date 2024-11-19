@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -14,12 +15,12 @@ body {
   background: #22c1c3;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#22c1c3), to(#fdbb2d));
   background: linear-gradient(to right, #22c1c3, #fdbb2d);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   font-family: "Geist Mono", monospace;
 }
-
 
 a {
   text-decoration: none;
@@ -32,21 +33,33 @@ header {
 }
 header nav ul {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   gap: 3px;
 }
 header nav ul li {
   background-color: rgb(37, 42, 33);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 header nav ul li :hover {
   background-color: rgb(94, 107, 84);
 }
 header nav ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 section {
@@ -94,11 +107,20 @@ h2 {
 }
 .page3 ul {
   grid-area: 3/3/11/4;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   list-style-type: none;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .page3 .right1 {
   grid-area: 4/8/8/11;
@@ -121,58 +143,4 @@ h2 {
 }
 .page4 .right2 {
   grid-area: 8/8/10/10;
-}/*# sourceMappingURL=style.css.map */
-
-
-footer {
-  display:flex;
-  height: auto;
-  background-color: rgb(37, 42, 33); 
-  color: white; 
-  text-align: center; 
-  padding: 15px; 
-  white-space: nowrap;
-  bottom: 0;
-  
-  
-}
-
-.copyright {
-  display: flex;
-  word-wrap: break-word;
-  word-break:break-all;
-}
-
-.footer-list {
-  display: flex;
-  position: relative;
-  list-style: none;
-  min-width: 70%;
-  align-content: space-around;
-  justify-content:flex-end;
-  
-
-}
-
-.footer-list li {
-  display: inline-block;
-  width: 20%;
-}
-
-.footer-list li:nth-child(2),
-.footer-list li:nth-child(3) {
-  border-left: 1px solid white;
-}
-
-.footer-list li:nth-child(2):hover,
-.footer-list li:nth-child(3):hover {
-  border-left: 3px solid aqua;
-  padding: 0 5px;
-}
-
-
-
-.footer-list li a:hover {
-  color: aqua;
-  font-size: 1.2em;
 }
