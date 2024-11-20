@@ -39,6 +39,10 @@ h2 {
   header {
     background-color: rgb(37, 42, 33);
   }
+  a {
+    color: white;
+    text-decoration: none;
+  }
   section {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(7, 1fr);

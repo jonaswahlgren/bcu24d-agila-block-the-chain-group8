@@ -1,6 +1,15 @@
 header {
     background-color: $headerColor;
+
 }
+
+a {
+    color: $textColor;
+    text-decoration: none;
+
+}
+
+
 
 section {
     grid-template-columns: repeat(6, 1fr);
