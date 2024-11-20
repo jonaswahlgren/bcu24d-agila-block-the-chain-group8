@@ -123,6 +123,24 @@ h2 {
   grid-area: 8/8/10/10;
 }/*# sourceMappingURL=style.css.map */
 
+.img-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.companies li img {
+  width: 100%;
+  height: auto;
+}
+
+.companies li:nth-child(3),
+.companies li:first-child {
+  padding-top: 10px;
+}
+
+
 
 footer {
   display:flex;
@@ -165,8 +183,9 @@ footer {
 }
 
 .footer-list li:nth-child(2):hover,
-.footer-list li:nth-child(3):hover {
-  border-left: 3px solid aqua;
+.footer-list li:nth-child(3):hover,
+.footer-list li:nth-child(4) {
+  border-left: 1px solid white;
   padding: 0 5px;
 }
 
@@ -176,3 +195,43 @@ footer {
   color: aqua;
   font-size: 1.2em;
 }
+
+
+
+.read-more-toggle {
+  display: none;
+}
+
+
+.more-content {
+  display: none;
+}
+
+
+.read-more-label {
+  color: aqua;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+
+.read-more-toggle:checked ~ .more-content {
+  display: inline;
+}
+
+
+.read-more-toggle:not(:checked) + .read-more-label::after {
+  content: "Read more";
+}
+
+.read-more-toggle:checked + .read-more-label::after {
+  content: "Read less";
+  color: orange;
+}
+
+.read-more-label:hover {
+  color: orange;
+}
+
+
