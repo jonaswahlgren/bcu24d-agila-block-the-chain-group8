@@ -34,3 +34,4 @@ inför i morgon ska alla komma på små tasks till sprint 2 för att sedan plane
 Jonas håller på med repsonsiv navigering
 Matilda har lagt in text i allt förutom use cases (bör justeras)
 Mohammed tar fram logor för företag och har adderat Zoher till footer samt tagit fram bilder
+![alt Title](/assets/printscreens/daily20241121.jpg)
