@@ -6,15 +6,23 @@
     height: 100%;
 }
 
+
+//vaiables
 $textColor: white;
 $headerColor: rgb(37, 42, 33);
 $headerHoverColor: rgb(94, 107, 84);
 
+//----------------------------------------------------------------
+
+//sidan skrollar från navigationen, istället för att klippa.
 html {
     scroll-behavior: smooth;
 }
 
+
+
 body {
+    //gradient colors
     background: #22c1c3;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #22c1c3, #fdbb2d);
@@ -22,7 +30,9 @@ body {
     background: linear-gradient(to right, #22c1c3, #fdbb2d);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+    //text färg
     color: $textColor;
+    //huvud font
     font-family: "Geist Mono", monospace;
 }
 
@@ -37,8 +47,6 @@ section {
     gap: 5px 20px;
 }
 
-.img-container {}
-
 img {
     object-fit: contain;
 }
@@ -47,14 +55,16 @@ h2 {
     font-size: 3rem;
 }
 
-
+//Vid mobil-vy importera _mobile.scss
 @media screen and (min-width: 300px) {
     @import "_mobile";
 }
 
+//Vid desktop-vy importera _desktop.scss
 @media screen and (min-width: 1024px) {
     @import "_desktop";
 }
+
 
 footer {
     display: flex;

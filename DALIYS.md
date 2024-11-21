@@ -28,3 +28,9 @@ Matilda fixar texterna och kollar också på lösingar för läs mer knappar.
 21/11
 möte närvarande Matilda, Jonas och Zoher
 Mohammed har anmält att han inte kunde deltaga vi kommer att meddela honom vad vi pratat om.
+Zoher och Matilda ska ha ett möte i eftermiddag där hon berättar vad vi har gjort och hur vi ska gå vidare
+sprint 1 klar till imorgon då vi ska gå igenom vad vi kan göra bättre och hur vi tycker att det gått
+inför i morgon ska alla komma på små tasks till sprint 2 för att sedan planera ut Story points och vad vi ska ha med i sprinten.
+Jonas håller på med repsonsiv navigering
+Matilda har lagt in text i allt förutom use cases (bör justeras)
+Mohammed tar fram logor för företag och har adderat Zoher till footer samt tagit fram bilder
