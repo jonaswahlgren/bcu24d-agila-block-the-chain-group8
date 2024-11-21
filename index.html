@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>Grupp8</title>
-  </head>
 
-  <body>
-    <header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <title>Grupp8</title>
+</head>
+
+<body>
+  <header>
+
+    <input class="check-ham" type="checkbox">
+
+    <div class="menu">
+      <button class="ham" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -19,143 +29,201 @@
         </ul>
       </nav>
       <!--Jonas Header och nav-->
-    </header>
-    <main>
-      <section class="intro" id="home">
-        <!--introduktions sida med h1 och en bild -->
-        <h1>Blockchain Technology</h1>
-        <span>A decentralised immutable ledger
-          <p>
-            What Is Blockchain Technology? Blockchain is a method of recording
-            information that makes it impossible or difficult for the system to
-            be changed, hacked, or manipulated. A blockchain is a distributed
-            ledger that duplicates and distributes transactions across the
-            network of computers participating in the blockchain. Blockchain
-            technology is a structure that stores transactional records, also
-            known as the block, of the public in several databases, known as the
-            “chain,” in a network connected through peer-to-peer nodes.
-            Typically, this storage is referred to as a digital ledger. Every
-            transaction in this ledger is authorized by the digital signature of
-            the owner, which authenticates the transaction and safeguards it
-            from tampering. Hence, the information the digital ledger contains
-            is highly secure. In simpler words, the digital ledger is like a
-            Google spreadsheet shared among numerous computers in a network, in
-            which, the transactional records are stored based on actual
-            purchases. The fascinating angle is that anybody can see the data,
-            but they can't corrupt it.
-          </p>
-          <h3>Advantages of using blockchain technology</h3>
-          <u>
-            <li>
-              High security - because it uses a digital signature feature to
-              conduct fraud-free transactions making it impossible to corrupt or
-              change any data of an individual by the other users without a
-              specific digital signature.
-            </li>
-            <li>
-              Decentralization - Decentralization is the key feature of
-              blockchain technology. In a decentralized blockchain, there is no
-              single central authority that can control the network. In
-              decentralization, the decision-making power is distributed among a
-              network of nodes that collectively validate and agree on the
-              transactions to be added to the blockchain. It recuces the risk to
-              rely on a single point of failure minimizing the risk of data
-              manipulation.
-            </li>
-            <li>
-              Automation capabilities - it is programmable and can generate
-              systematic actions, events and payments automatically when the
-              criteria of the trigger are met.
-            </li>
-          </u>
-        </span>
-        <div class="img-container">
-          <img src="bild1" alt="" />
-        </div>
-      </section>
-      <section class="page2" id="how-it-works">
-        <h2>How it works</h2>
-        <div class="img-container">
-          <img src="bild2" alt="" />
-        </div>
+  </header>
+  <main>
+    <section class="intro" id="home">
+      <!--introduktions sida med h1 och en bild -->
+      <h1>Blockchain Technology</h1>
+      <span>A decentralised immutable ledger
         <p>
-          A blockchain is a distributed, immutable and decentralized ledger and consists of a chain of blocks and each block contains a set of data. The blocks are linked together using cryptographic techniques and form a chronological chain of information. The structure of a blockchain is designed to ensure the security of data through its consensus mechanism which has a network of nodes that agree on the validity of transactions before adding them to the blockchain. Blockchain is a combination of three leading technologies, cryptographic keys, a peer to peer network containing a shared ledger and a means of computing to store transactions and records of the network.
-          <h3>Blocks:</h3>
-          A block in a chain is a combination of three main components:
+          What Is Blockchain Technology? Blockchain is a method of recording
+          information that makes it impossible or difficult for the system to
+          be changed, hacked, or manipulated. A blockchain is a distributed
+          ledger that duplicates and distributes transactions across the
+          network of computers participating in the blockchain. Blockchain
+          technology is a structure that stores transactional records, also
+          known as the block, of the public in several databases, known as the
+          “chain,” in a network connected through peer-to-peer nodes.
+          Typically, this storage is referred to as a digital ledger. Every
+          transaction in this ledger is authorized by the digital signature of
+          the owner, which authenticates the transaction and safeguards it
+          from tampering. Hence, the information the digital ledger contains
+          is highly secure. In simpler words, the digital ledger is like a
+          Google spreadsheet shared among numerous computers in a network, in
+          which, the transactional records are stored based on actual
+          purchases. The fascinating angle is that anybody can see the data,
+          but they can't corrupt it.
         </p>
-          <ol>
-            <li>The header - contains metadata such as timestamps which has a random number used in the mining process and the previous block's hash</li>
-            <li>The data secition - contains the main and actual information like transactions and smart contracts which are stored in the block.</li>
-            <li>The hash - a unique cryptographic value that works as a representative of the entire block which is used for verification purposes.</li>
-          </ol>
-
-
-      </section>
-      <section class="page3" id="use-cases">
-        <ul class="companies">
-          <li>icon</li>
-          <li>icon</li>
-          <li>icon</li>
-          <li>icon</li>
-        </ul>
-        <h2>Use cases</h2>
-        <p class="left">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-          facilis corrupti saepe quibusdam quam harum quisquam a cumque, maiores
-          sit ipsum provident tempore voluptatibus laboriosam neque! Vitae,
-          dolores? Consequatur, provident. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Vero in aliquid, enim quam ipsa
-          exercitationem molestias nemo numquam ad sapiente obcaecati ab quia
-          velit tenetur. Rerum recusandae dolores temporibus nisi. Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Inventore officiis
-          assumenda quas soluta, molestias nisi commodi exercitationem
-          architecto temporibus, recusandae fugiat? Ex voluptatem eaque enim
-          quia corporis eligendi esse beatae.
-        </p>
-        <p class="right1">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus totam
-          veritatis obcaecati accusantium eius, assumenda
-        </p>
-        <p class="right2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus totam
-          veritatis obcaecati accusantium eius, assumenda
-        </p>
-      </section>
-      <section class="page4" id="web3">
-        <h2>Web3</h2>
-        <p class="left">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
-          incidunt natus at reprehenderit perspiciatis harum, et explicabo
-          suscipit consectetur veritatis similique numquam repudiandae ducimus
-          aliquid inventore eligendi dignissimos illum ea.
-        </p>
-        <p class="right1">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sed
-          ducimus quo aut, voluptate aliquid officiis eius adipisci omnis autem
-          aperiam dolor deleniti quasi ab atque illo blanditiis possimus
-          aliquam.
-        </p>
-        <div class="img-container">
-          <img src="bild3" alt="" />
-        </div>
-        <p class="right2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sed
-          ducimus quo aut, voluptate aliquid officiis eius adipisci omnis autem
-          aperiam dolor deleniti quasi ab atque illo blanditiis possimus
-          aliquam.
-        </p>
-      </section>
-      <footer>
-        <p class="copyright">&copy; 2024 Grupp8. All rights reserved.</p>
-
-        <ul class="footer-list">
-          <li><a href="https://github.com/Msundqvist">Matilda Sundqvist</a></li>
-          <li><a href="https://github.com/jonaswahlgren">Jonas Wahlgren</a></li>
+        <h3>Advantages of using blockchain technology</h3>
+        <u>
           <li>
-            <a href="https://github.com/PsyAlien">Mohammed Saed Aldeen</a>
+            High security - because it uses a digital signature feature to
+            conduct fraud-free transactions making it impossible to corrupt or
+            change any data of an individual by the other users without a
+            specific digital signature.
           </li>
-        </ul>
-      </footer>
-    </main>
-  </body>
+          <li>
+            Decentralization - Decentralization is the key feature of
+            blockchain technology. In a decentralized blockchain, there is no
+            single central authority that can control the network. In
+            decentralization, the decision-making power is distributed among a
+            network of nodes that collectively validate and agree on the
+            transactions to be added to the blockchain. It recuces the risk to
+            rely on a single point of failure minimizing the risk of data
+            manipulation.
+          </li>
+          <li>
+            Automation capabilities - it is programmable and can generate
+            systematic actions, events and payments automatically when the
+            criteria of the trigger are met.
+          </li>
+        </u>
+        =======
+
+        </div>
+        <!--Jonas Header och nav-->
+        </header>
+        <main>
+          <section class="intro" id="home">
+            <!--introduktions sida med h1 och en bild -->
+            <h1>Blockchain Technology</h1>
+            <span>A decentralised immutable ledger</span>
+            <div class="img-container">
+              <img src="Assets/Blockchain Technology.jpg" alt="Blockchain" />
+            </div>
+          </section>
+          <section class="page2" id="how-it-works">
+            <h2>How it works</h2>
+            <div class="img-container">
+              <img src="Assets/How it works.jpg" alt="" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque saepe
+              explicabo distinctio illo, quae sint corrupti unde animi repudiandae
+              enim soluta nisi eum eveniet quaerat. Id nostrum a modi et!
+            </p>
+          </section>
+          <section class="page3" id="use-cases">
+            <ul class="companies">
+              <li><img src="Assets/icons/Republic.png" alt="Republic"></li>
+              <li><img src="Assets/icons/Kaleido.png" alt="Kaleido"></li>
+              <li><img src="Assets/icons/Oracle.png" alt="Oracle"></li>
+              <li><img src="Assets/icons/Novo Nordisk.png" alt="Novo-Nordisk"></li>
+            </ul>
+            <h2>Use cases</h2>
+            <p class="left">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facilis corrupti saepe quibusdam quam
+              harum
+              quisquam a cumque , maiores sit ipsum provident tempore voluptatibus laboriosam neque! Vitae, dolores?
+              Consequatur, provident. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <input type="checkbox" id="read-more-toggle" class="read-more-toggle" />
+              <label for="read-more-toggle" class="read-more-label"></label>
+              <span class="more-content">
+                Vero in aliquid, enim quam ipsa exercitationem molestias nemo numquam ad sapiente obcaecati ab quia
+                velit
+                tenetur. Rerum recusandae dolores temporibus nisi. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.
+                Inventore officiis assumenda quas soluta, molestias nisi commodi exercitationem architecto temporibus,
+                recusandae fugiat? Ex voluptatem eaque enim quia corporis eligendi esse beatae.
+                >>>>>>> Stashed changes
+              </span>
+            <div class="img-container">
+              <img src="bild1" alt="" />
+            </div>
+          </section>
+          <section class="page2" id="how-it-works">
+            <h2>How it works</h2>
+            <div class="img-container">
+              <img src="bild2" alt="" />
+            </div>
+            <p>
+              A blockchain is a distributed, immutable and decentralized ledger and consists of a chain of blocks and
+              each block contains a set of data. The blocks are linked together using cryptographic techniques and form
+              a chronological chain of information. The structure of a blockchain is designed to ensure the security of
+              data through its consensus mechanism which has a network of nodes that agree on the validity of
+              transactions before adding them to the blockchain. Blockchain is a combination of three leading
+              technologies, cryptographic keys, a peer to peer network containing a shared ledger and a means of
+              computing to store transactions and records of the network.
+            <h3>Blocks:</h3>
+            A block in a chain is a combination of three main components:
+            </p>
+            <ol>
+              <li>The header - contains metadata such as timestamps which has a random number used in the mining process
+                and the previous block's hash</li>
+              <li>The data secition - contains the main and actual information like transactions and smart contracts
+                which are stored in the block.</li>
+              <li>The hash - a unique cryptographic value that works as a representative of the entire block which is
+                used for verification purposes.</li>
+            </ol>
+
+
+          </section>
+          <section class="page3" id="use-cases">
+            <ul class="companies">
+              <li>icon</li>
+              <li>icon</li>
+              <li>icon</li>
+              <li>icon</li>
+            </ul>
+            <h2>Use cases</h2>
+            <p class="left">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              facilis corrupti saepe quibusdam quam harum quisquam a cumque, maiores
+              sit ipsum provident tempore voluptatibus laboriosam neque! Vitae,
+              dolores? Consequatur, provident. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Vero in aliquid, enim quam ipsa
+              exercitationem molestias nemo numquam ad sapiente obcaecati ab quia
+              velit tenetur. Rerum recusandae dolores temporibus nisi. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Inventore officiis
+              assumenda quas soluta, molestias nisi commodi exercitationem
+              architecto temporibus, recusandae fugiat? Ex voluptatem eaque enim
+              quia corporis eligendi esse beatae.
+            </p>
+            <p class="right1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus totam
+              veritatis obcaecati accusantium eius, assumenda
+            </p>
+            <p class="right2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus totam
+              veritatis obcaecati accusantium eius, assumenda
+            </p>
+          </section>
+          <section class="page4" id="web3">
+            <h2>Web3</h2>
+            <p class="left">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
+              incidunt natus at reprehenderit perspiciatis harum, et explicabo
+              suscipit consectetur veritatis similique numquam repudiandae ducimus
+              aliquid inventore eligendi dignissimos illum ea.
+            </p>
+            <p class="right1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sed
+              ducimus quo aut, voluptate aliquid officiis eius adipisci omnis autem
+              aperiam dolor deleniti quasi ab atque illo blanditiis possimus
+              aliquam.
+            </p>
+            <div class="img-container">
+              <img src="bild3" alt="" />
+            </div>
+            <p class="right2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sed
+              ducimus quo aut, voluptate aliquid officiis eius adipisci omnis autem
+              aperiam dolor deleniti quasi ab atque illo blanditiis possimus
+              aliquam.
+            </p>
+          </section>
+          <footer>
+            <p class="copyright">&copy; 2024 Grupp8. All rights reserved.</p>
+
+            <ul class="footer-list">
+              <li><a href="https://github.com/Msundqvist">Matilda Sundqvist</a></li>
+              <li><a href="https://github.com/jonaswahlgren">Jonas Wahlgren</a></li>
+              <li>
+                <a href="https://github.com/PsyAlien">Mohammed Saed Aldeen</a>
+              </li>
+            </ul>
+          </footer>
+        </main>
+</body>
+
 </html>

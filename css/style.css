@@ -48,6 +48,89 @@ h2 {
     color: white;
     text-decoration: none;
   }
+  button.ham {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 0;
+    top: 10px;
+    left: 10px;
+    position: fixed;
+    pointer-events: none;
+  }
+  button span {
+    display: block;
+    width: 40px;
+    height: 7px;
+    background-color: white;
+    border-radius: 6px;
+    margin-bottom: 4px;
+  }
+  .check-ham {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    top: 8px;
+    left: 10px;
+    z-index: 0;
+    opacity: 0;
+  }
+  .check-ham:checked + .menu button span {
+    position: absolute;
+    transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  }
+  .check-ham:checked + .menu button span:nth-child(2) {
+    transform: rotate(405deg);
+    transition: opacity 0s;
+    opacity: 0;
+  }
+  .check-ham:checked + .menu button span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 15px;
+  }
+  .check-ham:checked + .menu button span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 15px;
+  }
+  nav {
+    position: fixed;
+    background-color: rgb(37, 42, 33);
+    width: 30vw;
+    height: 100vh;
+    z-index: 3;
+    visibility: hidden;
+    opacity: 0;
+    top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .check-ham:checked + .menu nav {
+    visibility: visible;
+    opacity: 1;
+  }
+  ul {
+    position: relative;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    top: 20vh;
+    font-size: 1.5em;
+  }
+  ul :hover {
+    background-color: rgb(94, 107, 84);
+  }
+  ul li a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
   section {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(7, 1fr);
@@ -116,9 +199,27 @@ h2 {
     text-decoration: none;
     color: white;
   }
+  .ham {
+    display: none;
+  }
+  header {
+    background: transparent;
+  }
+  header nav {
+    background: transparent;
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
   header nav ul {
+    top: 0;
+    height: 100%;
     list-style: none;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     gap: 3px;
   }
