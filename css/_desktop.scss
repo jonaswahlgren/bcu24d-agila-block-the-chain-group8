@@ -165,3 +165,96 @@ section {
     grid-area: 8 / 8 / 10 / 10;
   }
 }
+
+footer {
+  display:flex;
+  height: auto;
+  background-color: rgb(37, 42, 33); 
+  color: white; 
+  text-align: center; 
+  padding: 15px; 
+  white-space: nowrap;
+  bottom: 0;
+  
+  
+}
+
+.copyright {
+  display: flex;
+  word-wrap: break-word;
+  word-break:break-all;
+}
+
+.footer-list {
+  display: flex;
+  position: relative;
+  list-style: none;
+  min-width: 70%;
+  align-content: space-around;
+  justify-content:flex-end;
+  
+
+}
+
+.footer-list li {
+  display: inline-block;
+  width: 20%;
+}
+
+.footer-list li:nth-child(2),
+.footer-list li:nth-child(3) {
+  border-left: 1px solid white;
+}
+
+.footer-list li:nth-child(2):hover,
+.footer-list li:nth-child(3):hover,
+.footer-list li:nth-child(4) {
+  border-left: 1px solid white;
+  padding: 0 5px;
+}
+
+
+
+.footer-list li a:hover {
+  color: aqua;
+  font-size: 1.2em;
+}
+
+
+
+.read-more-toggle {
+  display: none;
+}
+
+
+.more-content {
+  display: none;
+}
+
+
+.read-more-label {
+  color: aqua;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+
+.read-more-toggle:checked ~ .more-content {
+  display: inline;
+}
+
+
+.read-more-toggle:not(:checked) + .read-more-label::after {
+  content: "Read more";
+}
+
+.read-more-toggle:checked + .read-more-label::after {
+  content: "Read less";
+  color: orange;
+}
+
+.read-more-label:hover {
+  color: orange;
+}
+
