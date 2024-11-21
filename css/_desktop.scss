@@ -30,59 +30,75 @@ header {
   }
 }
 
+//Grid template för alla sections
 section {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
   gap: 5px 20px;
 }
 
-h2 {
-  font-size: 3rem;
-}
 
+//första sidan "Blockchain technology"
 .intro {
+
+  //heading 
   h1 {
-    grid-area: 4 / 4 / 7 / 8;
+    grid-area: 3 / 4 / 6 / 8;
     font-size: 4rem;
     text-align: right;
   }
 
+  //bild boxen
   .img-container {
-    grid-area: 7 / 4 / 11 / 8;
+    grid-area: 7 / 4 / 12 / 8;
   }
 
+  //texten
   span {
-    grid-area: 6 / 8 / 9 / 11;
+    grid-area: 7 / 8 / 9 / 12;
     font-size: 2.5rem;
     font-weight: lighter;
+    text-align: left;
   }
 }
 
+//andra sidan, "How it works"
 .page2 {
-  .img-container {
-    grid-area: 5 / 3 / 10 / 6;
-  }
 
-  p {
-    grid-area: 5 / 6 / 10 / 11;
-  }
-
+  //heading
   h2 {
     grid-area: 3 / 3 / 5 / 8;
 
     text-align: center;
   }
-}
 
-.page3 {
-  .left {
-    grid-area: 6 / 4 / 11 / 8;
+  //bildboxen
+  .img-container {
+    grid-area: 5 / 3 / 10 / 6;
   }
 
+  //texten
+  p {
+    grid-area: 5 / 6 / 10 / 11;
+  }
+
+
+}
+
+//tredje sidan "Use cases"
+.page3 {
+
+  //heading
   h2 {
     grid-area: 4 / 4 / 6 / 8;
   }
 
+  //texten till vänster
+  .left {
+    grid-area: 6 / 4 / 11 / 8;
+  }
+
+  //företagens loggor
   ul {
     grid-area: 3 / 3 / 11 / 4;
     display: flex;
@@ -92,32 +108,41 @@ h2 {
     align-items: center;
   }
 
+  //första stycket till höger
   .right1 {
     grid-area: 4 / 8 / 8 / 11;
   }
 
+  //andra stycket till höger
   .right2 {
     grid-area: 8 / 8 / 10 / 11;
   }
 }
 
+//fjärde sidan "Web3"
 .page4 {
-  .left {
-    grid-area: 6 / 4 / 11 / 8;
-  }
 
+  //heading
   h2 {
     grid-area: 4 / 4 / 6 / 8;
   }
 
+  //texten till vänster
+  .left {
+    grid-area: 6 / 4 / 11 / 8;
+  }
+
+  //första texten till höger
   .right1 {
     grid-area: 2 / 8 / 5 / 10;
   }
 
+  //bildboxen
   .img-container {
     grid-area: 5 / 8 / 8 / 10;
   }
 
+  //andra stycket till höger
   .right2 {
     grid-area: 8 / 8 / 10 / 10;
   }

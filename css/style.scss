@@ -37,7 +37,11 @@ section {
     gap: 5px 20px;
 }
 
+.img-container {}
 
+img {
+    object-fit: contain;
+}
 
 h2 {
     font-size: 3rem;
