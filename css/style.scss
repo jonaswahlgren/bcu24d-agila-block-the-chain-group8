@@ -10,7 +10,6 @@ $textColor: white;
 $headerColor: rgb(37, 42, 33);
 $headerHoverColor: rgb(94, 107, 84);
 
-
 html {
     scroll-behavior: smooth;
 }
@@ -25,171 +24,45 @@ body {
 
     color: $textColor;
     font-family: "Geist Mono", monospace;
-
 }
-
-
-
-a {
-    text-decoration: none;
-    color: $textColor;
-}
-
-
 
 header {
     position: fixed;
     height: 50px;
-
-
-
-    nav {
-
-
-        ul {
-            list-style: none;
-            display: flex;
-            justify-content: space-evenly;
-
-            gap: 3px;
-
-            li {
-                background-color: $headerColor;
-                display: flex;
-
-
-
-                :hover {
-                    background-color: $headerHoverColor;
-
-
-                }
-
-                a {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
-
-
-
-            }
-        }
-    }
 }
 
 section {
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
     gap: 5px 20px;
+}
 
+.img-container {}
+
+img {
+    object-fit: contain;
 }
 
 h2 {
     font-size: 3rem;
 }
 
-.intro {
 
-    h1 {
-        grid-area: 4 / 4 / 7 / 8;
-        font-size: 4rem;
-        text-align: right;
-    }
-
-    .img-container {
-        grid-area: 7 / 4 / 11 / 8;
-
-    }
-
-    span {
-        grid-area: 6 / 8 / 9 / 11;
-        font-size: 2.5rem;
-        font-weight: lighter;
-
-    }
+@media screen and (min-width: 300px) {
+    @import "_mobile";
 }
 
-.page2 {
-
-    .img-container {
-        grid-area: 5 / 3 / 10 / 6;
-    }
-
-    p {
-        grid-area: 5 / 6 / 10 / 11;
-    }
-
-    h2 {
-        grid-area: 3 / 3 / 5 / 8;
-
-        text-align: center;
-
-    }
+@media screen and (min-width: 1024px) {
+    @import "_desktop";
 }
-
-.page3 {
-
-
-    .left {
-        grid-area: 6 / 4 / 11 / 8;
-    }
-
-    h2 {
-        grid-area: 4 / 4 / 6 / 8;
-
-    }
-
-    ul {
-        grid-area: 3 / 3 / 11 / 4;
-        display: flex;
-        flex-direction: column;
-        list-style-type: none;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .right1 {
-        grid-area: 4 / 8 / 8 / 11;
-    }
-
-    .right2 {
-        grid-area: 8 / 8 / 10 / 11;
-    }
-}
-
-.page4 {
-
-
-
-    .left {
-        grid-area: 6 / 4 / 11 / 8;
-    }
-
-    h2 {
-        grid-area: 4 / 4 / 6 / 8;
-    }
-
-    .right1 {
-        grid-area: 2 / 8 / 5 / 10;
-    }
-
-    .img-container {
-        grid-area: 5 / 8 / 8 / 10;
-    }
-
-    .right2 {
-        grid-area: 8 / 8 / 10 / 10;
-    }
-}
-
 
 footer {
-    background-color: rgb(37, 42, 33); 
-    color: white; 
-    text-align: center; 
-    padding: 20px; 
+    display: flex;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    background-color: rgb(37, 42, 33);
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
-
