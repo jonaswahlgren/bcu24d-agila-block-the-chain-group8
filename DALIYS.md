@@ -35,3 +35,13 @@ Jonas håller på med repsonsiv navigering
 Matilda har lagt in text i allt förutom use cases (bör justeras)
 Mohammed tar fram logor för företag och har adderat Zoher till footer samt tagit fram bilder
 ![backlog20241121](/assets/printscreens/daily20241121.jpg)
+
+22/11
+Möte närvarade Zoher, Matilda och Mohammed
+Pratar om strukturen hur vi ska jobba, hur vi lägger upp uppgifterna
+kanske att vi ska välja en sida var att jobba med html, och styling i scss
+zoher försöker få till branches, Matilda gör en presentation i gamma som hon lägger in här och i chatten (editerar sen)
+vi har bokat in en tid för presentation där Mohammed, Matilda och Jonas ska närvara (zoher jobbar tyvärr).
+retrocermonin ska ske på måndag eftermiddag när tiden passar för alla.
+vi har lagt till en in review column och jonas ska lägga till ett nytt projekt för retro till på måndag
+![backlog20241122](/assets/printscreens/daily20241122.jpg)
