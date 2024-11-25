@@ -45,3 +45,10 @@ vi har bokat in en tid för presentation där Mohammed, Matilda och Jonas ska n�
 retrocermonin ska ske på måndag eftermiddag när tiden passar för alla.
 vi har lagt till en in review column och jonas ska lägga till ett nytt projekt för retro till på måndag
 ![backlog20241122](/assets/printscreens/daily20241122.jpg)
+
+25/11
+Möte närvarade Zoher, Matilda, Mohammed. Jonas var upptagen.
+Idag har Matilda och Jonas haft en presentation framför Jenny och Maria om projektet och hur vi arbetar agilt i vårat projekt.
+De tyckte vi hade gjort ett bra arbete och att vi ska ta med oss till sprint 2 att arbeta i branches för att få bort alla merge konflikter som kan uppstå
+Idag klockan 19:00 har vi retrocermoni och sprint planering.
+![backlog20241125](/assets/printscreens/daily20241125.jpg)
