@@ -6,11 +6,16 @@
     height: 100%;
 }
 
+:root{
+    --bg-color-body: #430c7d;
+    --bg-color-header-footer: #000000;
+    --bg-color-hover: #ffa98c;
+    --bg-color-important: #ffa98c;
+    --text-color-text-color: #ffffff;
+    --text-color-nav-text: #53edf1;
+    --text-color-rubric: #53edf1;
+}
 
-//vaiables
-$textColor: white;
-$headerColor: rgb(37, 42, 33);
-$headerHoverColor: rgb(94, 107, 84);
 
 //----------------------------------------------------------------
 
@@ -20,19 +25,10 @@ html {
 }
 
 
-
 body {
-    //gradient colors
-    background: #22c1c3;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #22c1c3, #fdbb2d);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #22c1c3, #fdbb2d);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: var(--bg-color-body);
 
-    //text färg
-    color: $textColor;
-    //huvud font
+    /* fallback for old browsers */
     font-family: "Geist Mono", monospace;
 }
 
