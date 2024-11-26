@@ -52,3 +52,11 @@ Idag har Matilda och Jonas haft en presentation framför Jenny och Maria om proj
 De tyckte vi hade gjort ett bra arbete och att vi ska ta med oss till sprint 2 att arbeta i branches för att få bort alla merge konflikter som kan uppstå
 Idag klockan 19:00 har vi retrocermoni och sprint planering.
 ![backlog20241125](/assets/printscreens/daily20241125.jpg)
+
+26/11
+Möte närvarade Matilda, Zoher, Mohammed och Jonas
+gårdagens möte gjorde vi en retrocermoni om sprint 1, vi diskuterade vad vi kunde gjort bättre och vad som hade funkat bra i vår sprint.
+![retro20241125](/assets/printscreens/retro20241125.jpg). Vi körde en planing poker på våran backlog och delade upp uppgifterna emellan oss.
+osäkerhet finns fortfarande om branches, tänkte boka handledning med jenny när nästa tillfälle ges.
+Mohammed meddelar att han ska resa imorgon så han kanske inte kan närvara på dailys och tillföra något men han försöker så gott han kan.
+![backlog20241126](/assets/printscreens/daily20241126.jpg)
