@@ -67,4 +67,4 @@ Mohammed åker tåg till Tysklad men han jobbar på projektet.
 vi valde att radera all scss och css det ser konstigt ut och vi behöver börja om från skratch för att få det att fungera
 Matilda ansvarar för att plocka bort allt som inte ska finnas, pojkarna sparar sitt scss som de vill ha kvar.
 alla har skapat en egen branch som är kopplad till developer branchen.
-![backlog20241127](/assets/printscreens/daily20241127.jpg)
+![backlog20241127](/assets/printscreens/daily20241127.jpg).
