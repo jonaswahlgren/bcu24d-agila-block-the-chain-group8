@@ -1,9 +1,0 @@
-//Vid mobil-vy importera _mobile.scss
-@media screen and (min-width: 300px) {
-  @import "_mobile";
-}
-
-//Vid desktop-vy importera _desktop.scss
-@media screen and (min-width: 1024px) {
-  @import "_desktop";
-}
