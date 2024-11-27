@@ -1,11 +1,11 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
+@media screen and (min-width: 300px) {
+  @import "_mobile";
 }
 
+//Vid desktop-vy importera _desktop.scss
+@media screen and (min-width: 1024px) {
+  @import "_desktop";
+}
 :root {
   --bg-color-body: #430c7d;
   --bg-color-header-footer: #000000;
@@ -14,13 +14,4 @@
   --text-color-text-color: #ffffff;
   --text-color-nav-text: #53edf1;
   --text-color-rubric: #53edf1;
-}
-//Vid mobil-vy importera _mobile.scss
-@media screen and (min-width: 300px) {
-  @import "_mobile";
-}
-
-//Vid desktop-vy importera _desktop.scss
-@media screen and (min-width: 1024px) {
-  @import "_desktop";
 }
