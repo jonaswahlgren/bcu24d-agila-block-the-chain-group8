@@ -1,75 +1,26 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
-:root{
-    --bg-color-body: #430c7d;
-    --bg-color-header-footer: #000000;
-    --bg-color-hover: #ffa98c;
-    --bg-color-important: #ffa98c;
-    --text-color-text-color: #ffffff;
-    --text-color-nav-text: #53edf1;
-    --text-color-rubric: #53edf1;
+:root {
+  --bg-color-body: #430c7d;
+  --bg-color-header-footer: #000000;
+  --bg-color-hover: #ffa98c;
+  --bg-color-important: #ffa98c;
+  --text-color-text-color: #ffffff;
+  --text-color-nav-text: #53edf1;
+  --text-color-rubric: #53edf1;
 }
-
-
-//----------------------------------------------------------------
-
-//sidan skrollar från navigationen, istället för att klippa.
-html {
-    scroll-behavior: smooth;
-}
-
-
-body {
-    background-color: var(--bg-color-body);
-
-    /* fallback for old browsers */
-    font-family: "Geist Mono", monospace;
-}
-
-header {
-    position: fixed;
-    height: 50px;
-}
-
-section {
-    height: 100vh;
-    display: grid;
-    gap: 5px 20px;
-}
-
-img {
-    object-fit: contain;
-}
-
-h2 {
-    font-size: 3rem;
-}
-
 //Vid mobil-vy importera _mobile.scss
 @media screen and (min-width: 300px) {
-    @import "_mobile";
+  @import "_mobile";
 }
 
 //Vid desktop-vy importera _desktop.scss
 @media screen and (min-width: 1024px) {
-    @import "_desktop";
+  @import "_desktop";
 }
-
-
-footer {
-    display: flex;
-    left: 0;
-    bottom: 0;
-    height: auto;
-    background-color: rgb(37, 42, 33);
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
