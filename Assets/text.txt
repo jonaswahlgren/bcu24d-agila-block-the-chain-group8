@@ -1,0 +1,64 @@
+What Is Blockchain Technology?
+
+Blockchain is a method of recording information that makes it impossible or difficult for the system to be changed, hacked, or manipulated. A blockchain is a distributed ledger that duplicates and distributes transactions across the network of computers participating in the blockchain.
+Blockchain technology is a structure that stores transactional records, also known as the block, of the public in several databases, known as the “chain,” in a network connected through peer-to-peer nodes. Typically, this storage is referred to as a ‘digital ledger.
+ Every transaction in this ledger is authorized by the digital signature of the owner, which authenticates the transaction and safeguards it from tampering. Hence, the information the digital ledger contains is highly secure.
+In simpler words, the digital ledger is like a Google spreadsheet shared among numerous computers in a network, in which, the transactional records are stored based on actual purchases. The fascinating angle is that anybody can see the data, but they can’t corrupt it.
+Advantages of using blockchain technology
+High security – because it uses a digital signature feature to conduct fraud-free transactions making it impossible to corrupt or change any data of an individual by the other users without a specific digital signature.
+Decentralization - Decentralization is the key feature of blockchain technology. In a decentralized blockchain, there is no single central authority that can control the network. In decentralization, the decision-making power is distributed among a network of nodes that collectively validate and agree on the transactions to be added to the blockchain. It recuces the risk to rely on a single point of failure minimizing the risk of data manipulation.
+Automation capabilities – it is programmable and can generate systematic actions, events and payments automatically when the criteria of the trigger are met.
+
+
+How it works 
+A blockchain is a distributed, immutable and decentralized ledger and consists of a chain of blocks and each block contains a set of data. The blocks are linked together using cryptographic techniques and form a chronological chain of information. The structure of a blockchain is designed to ensure the security of data through its consensus mechanism which has a network of nodes that agree on the validity of transactions before adding them to the blockchain. Blockchain is a combination of three leading technologies, cryptographic keys, a peer to peer network containing a shared ledger and a means of computing to store transactions and records of the network.
+Blocks:
+A block in a chain is a combination of three main components:
+1.The header contains metadata such as timestamps which has a random number used in the mining process and the previous block´s hash
+2.The data secition contains the main and actual information like transactions and smart contracts which are stored in the block.
+3.The hash – a unique cryptographic value that works as a representative of the entire block which is used for verification purposes.
+
+
+
+Use cases blockchain technology:
+ Novo Nordics - a global pharmaceutical and biotechnology company specializing in developing treatments for chronic diseases such as obesity Alzheimer’s and diabetes. based in Denmark
+Oracle - a company that uses intelligent track and trace application for supply chain management 
+Kaleido - boasts blockchain solutions for running and deploingt ledgers across several industries, one being government The company’s services can be utilized for risk reduction and auditing, overall streamlining operations in the sectors of public health, education, customs and payment. Kaleido’s solutions have been used by organizations like the United Nations, Centers for Disease Control and Prevention and the Worldwide Fund for Nature.
+
+
+
+Web2 vs Web3
+Web2
+Platform economy – they own your Data
+Platform monetizes Data as a primary source of revenue
+Users give away content to others in the hope that users will purchase their PSO sooner or later
+Costumers retention is driven by sales and promotions
+Web3
+Ownership economy – users keep ownership of your Data
+Users sell content as a primary source of revenue
+Users sell every single asset that went into the creation of the end Product or Service- Zero waste
+Costumers retention is driven by creation of NFT memberships, DAOs  
+Web 2.0
+Is centralized every application delivery, cloud services and platforms are all governed by and operates by centralized authorities.
+The payments and transactions occur with government-issued currency such as USD.
+Using cookies to track users and provide personalization.
+Web2 is defined by layout technologies that provide more dynamic control than Web 1.0.
+Using relational databases that underpin the content and application of Web 2.0
+Web 2.0 ushered in the era of social networking. Including Facebook.
+
+Web 3.0
+Is decentralized. Edge computing, peer-to-peer and distributed consensus increasingly becomes the norm in Web 3.0
+Transactions can be funded with encrypted digital currencies such as Bitcoin and Ethereum.
+NFT´s - Users can get unique tokens that are assigned value or provide some form of perks.
+AI- Smarter, autonomous technologies, including machine learning and AI will define Web 3.0
+Web 3.0 makes use of blockchain immutable ledger technology.
+With Web 3.0 metaverse worlds will emerge to meld physical, virtual and augmented reality
+
+-----
+Web3
+Web3 represents a shift towards an ownership economy where users maintain control over their data and can directly monetize content. Unlike Web2, which is governed by centralized platforms, Web3 relies on decentralized blockchain technology. Transactions are conducted using cryptocurrencies like Bitcoin and Ethereum, and innovations like NFT memberships and DAOs play a key role in community-driven engagement and governance.
+Web2 vs. Web3: Platform vs. Ownership Economy
+Web3 introduces an ownership-driven economy, contrasting with Web2's platform economy. Users retain data ownership and monetize every element of their digital presence. Technologies like blockchain and NFTs empower decentralization and zero waste production, fostering a sustainable, user-centric ecosystem.
+Technological Advancements: Web3 vs Web2
+Web3 is defined by decentralization, using edge computing, peer-to-peer networks, and blockchain for distributed consensus. Unlike Web2’s centralized structure, Web3 integrates AI for smarter, more autonomous systems. Technologies like NFTs assign value to unique digital assets, while metaverse environments combine physical, virtual, and augmented realities, making Web3 a more immersive, user-driven ecosystem compared to Web2's static and centrally controlled model.
+------
