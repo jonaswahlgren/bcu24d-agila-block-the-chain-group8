@@ -6,7 +6,7 @@
     height: 100%;
 }
 
-:root{
+:root {
     --bg-color-body: #430c7d;
     --bg-color-header-footer: #000000;
     --bg-color-hover: #ffa98c;
@@ -38,7 +38,7 @@ header {
 }
 
 section {
-    height: 100vh;
+    height: 92vh;
     display: grid;
     gap: 5px 20px;
 }
@@ -52,14 +52,14 @@ h2 {
 }
 
 //Vid mobil-vy importera _mobile.scss
-@media screen and (min-width: 300px) {
-    @import "_mobile";
-}
+// @media screen and (min-width: 300px) {
+//     @import "_mobile";
+// }
 
-//Vid desktop-vy importera _desktop.scss
-@media screen and (min-width: 1024px) {
-    @import "_desktop";
-}
+// //Vid desktop-vy importera _desktop.scss
+// @media screen and (min-width: 1024px) {
+//     @import "_desktop";
+// }
 
 
 footer {
@@ -72,4 +72,3 @@ footer {
     text-align: center;
     padding: 20px;
 }
-
