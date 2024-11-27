@@ -1,0 +1,116 @@
+button.ham {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 0;
+    top: 10px;
+    left: 10px;
+    position: fixed;
+    pointer-events: none;
+
+}
+
+button span {
+    display: block;
+    width: 40px;
+    height: 7px;
+    background-color: white;
+    border-radius: 6px;
+    margin-bottom: 4px;
+}
+
+.check-ham {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    top: 8px;
+    left: 10px;
+    z-index: 0;
+    opacity: 0;
+}
+
+.check-ham:checked+.menu {
+
+    button {
+
+        span {
+            position: absolute;
+
+            transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1)
+        }
+
+        span:nth-child(2) {
+            transform: rotate(405deg);
+            transition: opacity 0.0s;
+            opacity: 0;
+        }
+
+        span:nth-child(1) {
+            transform: rotate(45deg);
+            top: 15px;
+        }
+
+        span:nth-child(3) {
+            transform: rotate(-45deg);
+            top: 15px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+nav {
+    position: fixed;
+    background-color: $headerColor;
+    width: 30vw;
+    height: 100vh;
+    z-index: 3;
+    visibility: hidden;
+    opacity: 0;
+    top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.check-ham:checked+.menu nav {
+    visibility: visible;
+    opacity: 1;
+}
+
+ul {
+    position: relative;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    top: 20vh;
+    font-size: 1.5em;
+
+    :hover {
+        background-color: $headerHoverColor;
+    }
+
+    li {
+
+        a {
+            position: relative;
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+
+        }
+
+    }
+}
+

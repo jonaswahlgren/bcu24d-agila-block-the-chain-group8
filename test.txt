@@ -1,0 +1,31 @@
+Vilka dagar och tider jobbar vi?
+
+    Varje vardag vid lunchtid. kl12 om inte annat bestämts
+
+
+Var träffas vi? (teams, discord, live)
+
+    teams
+
+Vad använder vi för verktyg för samarbete och vilka kanaler för kommunikation?
+
+    teams & github
+
+Vad förväntas av varje gruppmedlem gällande kommunikation
+
+    Inget ghostande. Om man fått förhinder så hör man av sig i förväg. 
+    Så länge man låter andra medlemmarna veta läget
+
+Vad förväntas av varje gruppmedlem gällande aktivitet?
+
+    Jämn uppdelning av arbetet. Varje medlem ska utföra det som fördelats på mötet.
+    Om förhinder så hör man av sig innan det går för lång tid.
+
+Vad blir det för konsekvenser om man inte är aktiv i projektet?
+
+    Först blir personen varnad och meddelad att den inte gjort vad som väntats.
+    Om en dag utan aktiv i projektet eller aktiv kominikation så hör vi av oss till Maria.
+
+Vem är scrum master?
+
+    Mathilda 
