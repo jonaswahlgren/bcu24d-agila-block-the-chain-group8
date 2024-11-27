@@ -24,7 +24,7 @@ Use cases blockchain technology:
  Novo Nordics - a global pharmaceutical and biotechnology company specializing in developing treatments for chronic diseases such as obesity Alzheimer’s and diabetes. based in Denmark
 Oracle - a company that uses intelligent track and trace application for supply chain management 
 Kaleido - boasts blockchain solutions for running and deploingt ledgers across several industries, one being government The company’s services can be utilized for risk reduction and auditing, overall streamlining operations in the sectors of public health, education, customs and payment. Kaleido’s solutions have been used by organizations like the United Nations, Centers for Disease Control and Prevention and the Worldwide Fund for Nature.
-
+Republic Real Estate, a division of Republic, offers a platform for crowdfunding real estate investments, enabling individuals to invest in various property types, such as residential developments, office spaces, and rental properties.
 
 
 Web2 vs Web3
