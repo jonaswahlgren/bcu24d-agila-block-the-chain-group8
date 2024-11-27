@@ -1,1 +1,7 @@
+@use '_reset';
+@use '_mobile';
 
+// smooth scroll when using navigation links
+html {
+    scroll-behavior: smooth !important;
+}
