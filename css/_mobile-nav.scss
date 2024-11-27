@@ -3,10 +3,11 @@ button.ham {
     height: 40px;
     background: transparent;
     border: 0;
-    top: 10px;
+    top: 6px;
     left: 10px;
     position: fixed;
     pointer-events: none;
+    z-index: 3;
 
 }
 
@@ -23,15 +24,23 @@ button span {
     position: fixed;
     width: 40px;
     height: 40px;
-    top: 8px;
-    left: 10px;
-    z-index: 0;
+    top: 4px;
+    left: 16px;
+    z-index: 2;
     opacity: 0;
+}
+
+.check-ham:checked {
+    transform: translateX(230px);
+
 }
 
 .check-ham:checked+.menu {
 
     button {
+        transform: translateX(230px);
+
+        transition: transform 0.3s ease-in-out 0.05s;
 
         span {
             position: absolute;
@@ -57,59 +66,58 @@ button span {
     }
 }
 
-
-
-
-
-
-
-
-
 nav {
     position: fixed;
-    background-color: $headerColor;
-    width: 30vw;
+    background-color: rgba(0, 0, 0, 0.514);
+    font-size: 1.5rem;
+    width: 300px;
     height: 100vh;
     z-index: 3;
     visibility: hidden;
-    opacity: 0;
-    top: 50px;
+    transform: translateX(-50vh);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(2px);
+    border-right: 1px solid rgba(255, 255, 255, 0.481);
+
+
+    z-index: 1;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 0.3s ease-in-out;
+
+    ul {
+        position: relative;
+        display: flex;
+        padding: 0;
+        list-style: none;
+        margin: 0;
+        display: flex;
+        height: 70%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        top: 20vh;
+        font-size: 1.5em;
+
+        li {
+
+            a {
+                position: relative;
+                display: flex;
+                align-items: center;
+                padding-left: 20px;
+                text-decoration: none;
+                color: white;
+
+            }
+
+        }
+    }
 }
 
 .check-ham:checked+.menu nav {
     visibility: visible;
-    opacity: 1;
-}
 
-ul {
-    position: relative;
-    padding: 0;
-    list-style: none;
-    margin: 0;
-    display: flex;
-    height: 50%;
-    flex-direction: column;
-    top: 20vh;
-    font-size: 1.5em;
-
-    :hover {
-        background-color: $headerHoverColor;
-    }
-
-    li {
-
-        a {
-            position: relative;
-            display: flex;
-            align-items: center;
-            padding-left: 20px;
-
-        }
-
-    }
+    transform: translate(0);
 }
