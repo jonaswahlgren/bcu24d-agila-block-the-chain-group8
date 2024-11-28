@@ -50,4 +50,40 @@
             }
         }
     }
+
+    .page1 {
+
+
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+
+
+        .img-container {
+            grid-area: 3 / 7 / 11 / 12;
+
+            img {
+                width: 600px;
+
+            }
+        }
+
+        h1 {
+            grid-area: 3 / 2 / 7 / 7;
+
+
+            justify-self: center;
+            font-size: 5rem;
+        }
+
+        span {
+            grid-area: 7 / 2 / 11 / 7;
+            font-size: 3rem;
+            width: 500px;
+            justify-self: center;
+        }
+    }
+
+
+
 }
