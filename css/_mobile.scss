@@ -42,3 +42,19 @@ section {
         font-size: 2rem;
     }
 }
+.howitworks {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .img-container {
+        display: flex;
+        justify-content: center;
+    }
+      
+    .blocklist {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -135,6 +135,21 @@ section {
   font-size: 2rem;
 }
 
+.howitworks {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.howitworks .img-container {
+  display: flex;
+  justify-content: center;
+}
+.howitworks .blocklist {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 1024px) {
   header button.ham,
   header .check-ham {
