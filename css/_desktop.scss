@@ -1,0 +1,91 @@
+@media screen and (min-width: 1024px) {
+
+
+    header {
+
+        //take away the hamburger button
+        button.ham,
+        .check-ham {
+            display: none;
+        }
+
+        //make the div in the header take upp all the header height
+        .menu {
+            height: 100%;
+        }
+
+        nav {
+            //move the navbar back to screen
+            transform: translateX(0);
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border: none;
+
+            ul {
+                flex-direction: row;
+                justify-content: space-evenly;
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                top: 0;
+                font-size: 1em;
+
+                li {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+
+
+                    //changer color when hovering the links
+                    :hover {
+                        background-color: rgba(0, 0, 0, 0.358);
+                    }
+
+                    a {
+
+                        padding: 0;
+                        width: 100%;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .page1 {
+
+
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+
+
+        .img-container {
+            grid-area: 3 / 7 / 11 / 12;
+
+            img {
+                width: 600px;
+
+            }
+        }
+
+        h1 {
+            grid-area: 3 / 2 / 7 / 7;
+
+
+            justify-self: center;
+            font-size: 5rem;
+        }
+
+        span {
+            grid-area: 7 / 2 / 11 / 7;
+            font-size: 3rem;
+            width: 500px;
+            justify-self: center;
+        }
+    }
+
+
+
+}
