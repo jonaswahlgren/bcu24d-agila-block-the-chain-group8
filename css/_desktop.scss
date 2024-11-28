@@ -36,12 +36,14 @@
                     justify-content: center;
                     width: 100%;
 
+
                     //changer color when hovering the links
                     :hover {
-                        background-color: black;
+                        background-color: rgba(0, 0, 0, 0.358);
                     }
 
                     a {
+
                         padding: 0;
                         width: 100%;
                         justify-content: center;
