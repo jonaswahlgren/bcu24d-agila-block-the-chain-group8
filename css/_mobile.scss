@@ -22,11 +22,9 @@
 
 
 
-    section {
-        min-height: 100vh;
-    }
 
     .page1 {
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
