@@ -1,6 +1,14 @@
 @media screen and (min-width: 1024px) {
 
-
+    :root {
+        --bg-color-body: #430c7d;
+        --bg-color-header-footer: #000000;
+        --bg-color-hover: #ffa98c;
+        --bg-color-important: #ffa98c;
+        --text-color-text-color: #ffffff;
+        --text-color-nav-text: #53edf1;
+        --text-color-rubric: #53edf1;
+    }
     header {
 
         //take away the hamburger button

@@ -1,10 +1,18 @@
 @use '_mobile-nav';
 
 @media screen and (min-width: 300px) {
-
+    :root {
+        --bg-color-body: #430c7d;
+        --bg-color-header-footer: #000000;
+        --bg-color-hover: #ffa98c;
+        --bg-color-important: #ffa98c;
+        --text-color-text-color: #ffffff;
+        --text-color-nav-text: #53edf1;
+        --text-color-rubric: #53edf1;
+    }
     body {
         //please add the root colors and change this to the right color
-        background-color: rgb(112, 205, 255);
+        background-color: var(--bg-color-body);
     }
 
     //also here
