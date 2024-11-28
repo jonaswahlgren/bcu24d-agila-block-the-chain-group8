@@ -152,8 +152,59 @@
     width: 400px;
 }
 
- /***--------------finish web3--------------***/
+ /***------------------------------------finish web3--------------------------------***/
 
-
+ /***------------------------------------footer zoher-------------------------------***/
+ footer {
+    background-color: var(--bg-color-header-footer); 
+    color: var(--text-color-text-color); 
+    height: 12vh; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px; 
+    box-sizing: border-box; 
+    }
+    
+    footer .copyright {
+    font-size: 1rem; 
+    margin: 0; 
+    text-align: left; 
+    }
+    
+    footer .footer-list {
+    display: flex; 
+    gap: 15px; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    }
+    
+    footer .footer-list li a {
+    color: var(--text-color-text-color); 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+    }
+    
+    footer .footer-list li a:hover {
+    color: var(--bg-color-important); 
+    }
+    
+    footer #Top {
+    text-align: right; 
+    }
+    
+    footer #Top a {
+    color: var(--text-color-nav-text); 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+    }
+    
+    footer #Top a:hover {
+    color: var(--bg-color-important); 
+    }
+/***-----------------------footer finish----------------------***/
 
 }
