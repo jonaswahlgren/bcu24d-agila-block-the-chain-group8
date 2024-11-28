@@ -177,6 +177,28 @@ section {
     width: 100%;
     justify-content: center;
   }
+  .page1 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+  }
+  .page1 .img-container {
+    grid-area: 3/7/11/12;
+  }
+  .page1 .img-container img {
+    width: 600px;
+  }
+  .page1 h1 {
+    grid-area: 3/2/7/7;
+    justify-self: center;
+    font-size: 5rem;
+  }
+  .page1 span {
+    grid-area: 7/2/11/7;
+    font-size: 3rem;
+    width: 500px;
+    justify-self: center;
+  }
 }
 html {
   scroll-behavior: smooth !important;
