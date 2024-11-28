@@ -68,3 +68,9 @@ vi valde att radera all scss och css det ser konstigt ut och vi behöver börja 
 Matilda ansvarar för att plocka bort allt som inte ska finnas, pojkarna sparar sitt scss som de vill ha kvar.
 alla har skapat en egen branch som är kopplad till developer branchen.
 ![backlog20241127](/assets/printscreens/daily20241127.jpg).
+
+28/11 
+mötet närvarade Matilda, Zoher, Mohammed och Jonas 
+vi pratar om att Matilda och Mohammed har merge problem med branches vi har haft möte med Jenny i morse, vi blir lite låsta hur vi ska göra.
+det gör att vi inte kan fortsätta utveckla vårat projekt.
+förhoppningsvis får vi det att fungera tills imorgon. vi har gjort klart vår html struktur till hur vi vill ha det och ska lägga det i done columnen ![backlog20241128](/assets/printscreens/daily20241128.jpg).

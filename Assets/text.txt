@@ -24,7 +24,7 @@ Use cases blockchain technology:
  Novo Nordics - a global pharmaceutical and biotechnology company specializing in developing treatments for chronic diseases such as obesity Alzheimer’s and diabetes. based in Denmark
 Oracle - a company that uses intelligent track and trace application for supply chain management 
 Kaleido - boasts blockchain solutions for running and deploingt ledgers across several industries, one being government The company’s services can be utilized for risk reduction and auditing, overall streamlining operations in the sectors of public health, education, customs and payment. Kaleido’s solutions have been used by organizations like the United Nations, Centers for Disease Control and Prevention and the Worldwide Fund for Nature.
-
+Republic Real Estate, a division of Republic, offers a platform for crowdfunding real estate investments, enabling individuals to invest in various property types, such as residential developments, office spaces, and rental properties.
 
 
 Web2 vs Web3
@@ -53,3 +53,12 @@ NFT´s - Users can get unique tokens that are assigned value or provide some for
 AI- Smarter, autonomous technologies, including machine learning and AI will define Web 3.0
 Web 3.0 makes use of blockchain immutable ledger technology.
 With Web 3.0 metaverse worlds will emerge to meld physical, virtual and augmented reality
+
+-----
+Web3
+Web3 represents a shift towards an ownership economy where users maintain control over their data and can directly monetize content. Unlike Web2, which is governed by centralized platforms, Web3 relies on decentralized blockchain technology. Transactions are conducted using cryptocurrencies like Bitcoin and Ethereum, and innovations like NFT memberships and DAOs play a key role in community-driven engagement and governance.
+Web2 vs. Web3: Platform vs. Ownership Economy
+Web3 introduces an ownership-driven economy, contrasting with Web2's platform economy. Users retain data ownership and monetize every element of their digital presence. Technologies like blockchain and NFTs empower decentralization and zero waste production, fostering a sustainable, user-centric ecosystem.
+Technological Advancements: Web3 vs Web2
+Web3 is defined by decentralization, using edge computing, peer-to-peer networks, and blockchain for distributed consensus. Unlike Web2’s centralized structure, Web3 integrates AI for smarter, more autonomous systems. Technologies like NFTs assign value to unique digital assets, while metaverse environments combine physical, virtual, and augmented realities, making Web3 a more immersive, user-driven ecosystem compared to Web2's static and centrally controlled model.
+------

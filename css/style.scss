@@ -1,0 +1,14 @@
+@use '_reset';
+@use '_mobile';
+@use '_desktop';
+
+
+// smooth scroll when using navigation links
+html {
+    scroll-behavior: smooth !important;
+    font-family: monospace;
+}
+
+body {
+    font-family: "Funnel Display", serif;
+}

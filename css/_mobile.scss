@@ -1,0 +1,44 @@
+@use '_mobile-nav';
+
+@media screen and (min-width: 300px) {}
+
+body {
+    //please add the root colors and change this to the right color
+    background-color: rgb(112, 205, 255);
+}
+
+//also here
+header {
+    background-color: rgba(37, 37, 37, 0);
+    height: 8vh;
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+
+
+
+}
+
+
+
+
+section {
+    min-height: 100vh;
+}
+
+.page1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5vw;
+
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    span {
+        font-size: 2rem;
+    }
+}
