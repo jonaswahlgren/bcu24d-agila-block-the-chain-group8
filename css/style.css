@@ -67,8 +67,7 @@ nav {
   width: 300px;
   height: 100vh;
   z-index: 3;
-  visibility: hidden;
-  transform: translateX(-50vh);
+  transform: translateX(-55vh);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(2px);
   border-right: 1px solid rgba(255, 255, 255, 0.481);
@@ -102,8 +101,7 @@ nav ul li a {
 }
 
 .check-ham:checked + .menu nav {
-  visibility: visible;
-  transform: translate(0);
+  transform: translateX(0);
 }
 
 body {
@@ -142,6 +140,44 @@ section {
   width: 300px;
 }
 
+@media screen and (min-width: 1024px) {
+  header button.ham,
+  header .check-ham {
+    display: none;
+  }
+  header .menu {
+    height: 100%;
+  }
+  header nav {
+    transform: translateX(0);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  header nav ul {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    top: 0;
+    font-size: 1em;
+  }
+  header nav ul li {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  header nav ul li :hover {
+    background-color: black;
+  }
+  header nav ul li a {
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+  }
+}
 html {
   scroll-behavior: smooth !important;
   font-family: monospace;
