@@ -356,3 +356,93 @@ a {
   text-decoration: none;
   color: #26ece9;
 }
+
+.companies {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 50vw;
+  justify-content: space-around;
+  
+}
+
+
+.companies div {
+  padding: 20px;
+}
+
+.companies li {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+
+
+
+.read-more-toggle {
+  display: none;
+}
+
+
+.more-content {
+  display: none;
+}
+
+
+.read-more-label {
+  color: rgba(245, 248, 248, 0.685);
+  cursor: pointer;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+
+.read-more-toggle:checked ~ .more-content {
+  display: inline;
+}
+
+
+.read-more-toggle:not(:checked) + .read-more-label::after {
+  content: "Read more";
+}
+
+.read-more-toggle:checked + .read-more-label::after {
+  content: "Read less";
+  color: rgb(251, 251, 251);
+}
+
+
+.read-more-label:hover {
+  color: rgb(251, 251, 251);
+}
+
+.page3 {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.use-cases-text {
+  display: flex;
+  align-items: center;
+}
+
+.use-cases-text h2 {
+  font-size: 3em;
+  font-weight: bolder;
+  color: #A4C639;
+  position: relative;
+  animation: moveUpDown 3s infinite alternate ease-in-out;
+}
+
+@keyframes moveUpDown {
+  0% {
+    top: -200px; 
+  }
+  100% {
+    top: 200px; 
+  }
+}
