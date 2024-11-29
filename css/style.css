@@ -141,6 +141,21 @@ section {
   flex-direction: column;
   align-items: center;
 }
+.howitworks h2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+.howitworks p {
+  font-size: 2rem;
+}
+.howitworks h3 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+.howitworks li {
+  padding: 1vh;
+  font-size: 2rem;
+}
 .howitworks .img-container {
   display: flex;
   justify-content: center;
