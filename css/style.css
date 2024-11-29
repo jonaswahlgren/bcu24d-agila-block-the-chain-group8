@@ -378,7 +378,9 @@ a {
 }
 
 
-
+.companies p {
+  color: white;
+}
 
 
 
@@ -422,6 +424,7 @@ a {
 .page3 {
   display: flex;
   justify-content: space-around;
+  padding: 20px;
   
 }
 
