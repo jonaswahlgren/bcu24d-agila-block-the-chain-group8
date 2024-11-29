@@ -74,3 +74,11 @@ mötet närvarade Matilda, Zoher, Mohammed och Jonas
 vi pratar om att Matilda och Mohammed har merge problem med branches vi har haft möte med Jenny i morse, vi blir lite låsta hur vi ska göra.
 det gör att vi inte kan fortsätta utveckla vårat projekt.
 förhoppningsvis får vi det att fungera tills imorgon. vi har gjort klart vår html struktur till hur vi vill ha det och ska lägga det i done columnen ![backlog20241128](/assets/printscreens/daily20241128.jpg).
+
+29/11
+mötet närvarade Matilda, Zoher, Mohammed och Jonas samt Maria och Jenny
+vi fick hjälp att lösa våra branch problem då lokalt på vår developer branch såg det olika ut.
+vi böjar för stå hur man ska pull till orgin ect.
+tills på måndag ska vi arbeta på våra grenar det vi har kvar och kolla ta ansvar att titta igenom in review columnen och lägga i done om vi tycker att uppgifterba slutförts.
+På måndag eftermiddag klockan 19:00 ska vi ha ett retro/ planeringsmöte inför presentationen av vårat projekt för Maria och Jenny som ska ske på fredag 6/12
+![backlog20241129](/assets/printscreens/daily20241129.jpg).
