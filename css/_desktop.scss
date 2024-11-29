@@ -207,4 +207,31 @@
     }
 /***-----------------------footer finish----------------------***/
 
-}
+    .read-more-toggle, .read-more-label {
+      display: none;
+    }
+  
+    .more-content {
+      display: inline;
+    }
+    
+    .page3 {
+      flex-direction: row;
+    }
+  
+    .use-cases-text h2 {
+      animation: moveUpDown 3s infinite alternate ease-in-out;
+      position: relative;
+    }
+  
+    @keyframes moveUpDown {
+      0% {
+        top: -200px; 
+      }
+      100% {
+        top: 200px; 
+      }
+    }
+  }
+
+
