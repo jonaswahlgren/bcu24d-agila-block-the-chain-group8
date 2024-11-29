@@ -395,7 +395,7 @@ a {
 
 
 .read-more-label {
-  color: rgba(245, 248, 248, 0.685);
+  color: #A4C639;
   cursor: pointer;
   text-decoration: underline;
   margin-left: 5px;
@@ -413,7 +413,7 @@ a {
 
 .read-more-toggle:checked + .read-more-label::after {
   content: "Read less";
-  color: rgb(251, 251, 251);
+  color: #A4C639;
 }
 
 
@@ -423,8 +423,10 @@ a {
 
 .page3 {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   padding: 20px;
+  align-items: center;
   
 }
 
@@ -434,18 +436,14 @@ a {
 }
 
 .use-cases-text h2 {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bolder;
   color: #A4C639;
-  position: relative;
-  animation: moveUpDown 3s infinite alternate ease-in-out;
+  transform: translate(10px);
+  text-shadow: 4px 4px 5px rgb(0, 0, 0);
+  border: 3px solid #A4C639;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 30px;
 }
 
-@keyframes moveUpDown {
-  0% {
-    top: -200px; 
-  }
-  100% {
-    top: 200px; 
-  }
-}
