@@ -9,6 +9,7 @@
         --text-color-nav-text: #53edf1;
         --text-color-rubric: #53edf1;
     }
+
     header {
 
         //take away the hamburger button
@@ -44,14 +45,12 @@
                     justify-content: center;
                     width: 100%;
 
-
                     //changer color when hovering the links
                     :hover {
                         background-color: rgba(0, 0, 0, 0.358);
                     }
 
                     a {
-
                         padding: 0;
                         width: 100%;
                         justify-content: center;
@@ -62,26 +61,20 @@
     }
 
     .page1 {
-
-
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(12, 1fr);
-
 
         .img-container {
             grid-area: 3 / 7 / 11 / 12;
 
             img {
                 width: 600px;
-
             }
         }
 
         h1 {
             grid-area: 3 / 2 / 7 / 7;
-
-
             justify-self: center;
             font-size: 5rem;
         }
@@ -95,143 +88,144 @@
     }
 
     /***-------------------------------web3 Zoher-------------------------***/
-.web3-page {
-    margin: 8vh 0 0 0;
-    padding: 0;
-    box-sizing: border-box;
-    height: calc(100vh - 8vh - 12vh);
-}
-
-.web3-container {
-    display: flex;
-    flex-direction: row; 
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.left-column,
-.right-column {
-    width: 50%; 
-    padding: 30px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.web3-title {
-    font-size: 3em; 
-    margin-bottom: 20px;
-    color: var(--bg-color-important);
-    text-align: center;
-}
-
-.left-column p,
-.right-column p {
-    text-align: left;
-    color: var(--text-color-text-color);
-    margin-bottom: 50px;
-}
-
-.left-column h1,
-.right-column h2 {
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-.right-column h2 {
-    color: var(--text-color-rubric);
-}
-
-.left-column img {
-    display: block;
-    margin: 10px auto;
-    width: 400px;
-}
-
- /***------------------------------------finish web3--------------------------------***/
-
- /***------------------------------------footer zoher-------------------------------***/
- footer {
-    background-color: var(--bg-color-header-footer); 
-    color: var(--text-color-text-color); 
-    height: 12vh; 
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 0 20px; 
-    box-sizing: border-box; 
+    .web3-page {
+        margin: 8vh 0 0 0;
+        padding: 0;
+        box-sizing: border-box;
+        height: calc(100vh - 8vh - 12vh);
     }
-    
+
+    .web3-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .left-column,
+    .right-column {
+        width: 50%;
+        padding: 30px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .web3-title {
+        font-size: 3em;
+        margin-bottom: 20px;
+        color: var(--bg-color-important);
+        text-align: center;
+    }
+
+    .left-column p,
+    .right-column p {
+        text-align: left;
+        color: var(--text-color-text-color);
+        margin-bottom: 50px;
+    }
+
+    .left-column h1,
+    .right-column h2 {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .right-column h2 {
+        color: var(--text-color-rubric);
+    }
+
+    .left-column img {
+        display: block;
+        margin: 10px auto;
+        width: 400px;
+    }
+
+    /***------------------------------------finish web3--------------------------------***/
+
+    /***------------------------------------footer zoher-------------------------------***/
+    footer {
+        background-color: var(--bg-color-header-footer);
+        color: var(--text-color-text-color);
+        height: 12vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
     footer .copyright {
-    font-size: 1rem; 
-    margin: 0; 
-    text-align: left; 
+        font-size: 1rem;
+        margin: 0;
+        text-align: left;
     }
-    
+
     footer .footer-list {
-    display: flex; 
-    gap: 15px; 
-    list-style: none; 
-    margin: 0; 
-    padding: 0; 
+        display: flex;
+        gap: 15px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
     }
-    
+
     footer .footer-list li a {
-    color: var(--text-color-text-color); 
-    text-decoration: none; 
-    font-weight: bold; 
-    transition: color 0.3s ease; 
+        color: var(--text-color-text-color);
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
     }
-    
+
     footer .footer-list li a:hover {
-    color: var(--bg-color-important); 
+        color: var(--bg-color-important);
     }
-    
+
     footer #Top {
-    text-align: right; 
+        text-align: right;
     }
-    
+
     footer #Top a {
-    color: var(--text-color-nav-text); 
-    text-decoration: none; 
-    font-weight: bold; 
-    transition: color 0.3s ease; 
+        color: var(--text-color-nav-text);
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
     }
-    
+
     footer #Top a:hover {
-    color: var(--bg-color-important); 
+        color: var(--bg-color-important);
     }
-/***-----------------------footer finish----------------------***/
 
-    .read-more-toggle, .read-more-label {
-      display: none;
+    /***-----------------------footer finish----------------------***/
+
+    .read-more-toggle,
+    .read-more-label {
+        display: none;
     }
-  
+
     .more-content {
-      display: inline;
+        display: inline;
     }
-    
+
     .page3 {
-      flex-direction: row;
+        flex-direction: row;
     }
-  
+
     .use-cases-text h2 {
-      animation: moveUpDown 3s infinite alternate ease-in-out;
-      position: relative;
+        animation: moveUpDown 3s infinite alternate ease-in-out;
+        position: relative;
     }
-  
+
     @keyframes moveUpDown {
-      0% {
-        top: -200px; 
-      }
-      100% {
-        top: 200px; 
-      }
+        0% {
+            top: -200px;
+        }
+
+        100% {
+            top: 200px;
+        }
     }
-  }
-
-
+}
