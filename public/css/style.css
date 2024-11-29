@@ -180,6 +180,59 @@ nav ul li a {
   .page1 span {
     font-size: 2rem;
   }
+  .howitworks {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .howitworks h2 {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+  .howitworks p {
+    font-size: 2rem;
+  }
+  .howitworks h3 {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+  .howitworks li {
+    padding: 1vh;
+    font-size: 2rem;
+  }
+  .howitworks .img-container {
+    display: flex;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .howitworks .blocklist {
+    display: flex;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 1024px) {
   :root {
