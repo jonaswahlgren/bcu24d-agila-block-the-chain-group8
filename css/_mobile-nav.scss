@@ -35,16 +35,13 @@ button span {
 //move the checkbox along with the hamburger button
 .check-ham:checked {
     transform: translateX(230px);
-
 }
 
 .check-ham:checked+.menu {
-
     button {
         //move the hamburger button to the right
         transform: translateX(230px);
         transition: transform 0.3s ease-in-out 0.05s;
-
 
         //make the hamburger button turn to an x
         span {
@@ -70,7 +67,7 @@ button span {
     }
 }
 
-//style and position the navmenu oudeside the screen
+//style and position the navmenu outside the screen
 nav {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.514);
@@ -112,7 +109,6 @@ nav {
                 color: white;
 
             }
-
         }
     }
 }

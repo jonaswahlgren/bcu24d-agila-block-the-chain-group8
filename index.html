@@ -16,7 +16,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css\style.css" type="text/css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
@@ -27,6 +27,7 @@
   <!-- <a href="#footer" class="floating-bubble">Contact Us</a> -->
 
   <header>
+
     <input type="checkbox" class="check-ham">
 
     <div class="menu">
@@ -65,117 +66,146 @@
 
   <section class="howitworks" id="how-it-works">
     <h2>How it works</h2>
-    <div class="img-container">
-      <img src="Assets/How it works.jpg" alt="how blockchain works" width="300" />
-    </div>
     <div class="howitworkstext">
       <p>
         A blockchain is a distributed, immutable and decentralized ledger and consists of a chain of blocks and each
         block contains a set of data. The blocks are linked together using cryptographic techniques and form a
-        chronological chain of information. The structure of a blockchain is designed to ensure the security of data
-        through its consensus mechanism which has a network of nodes that agree on the validity of transactions before
-        adding them to the blockchain. Blockchain is a combination of three leading technologies, cryptographic keys, a
-        peer to peer network containing a shared ledger and a means of computing to store transactions and records of
-        the network.
+        chronological chain of information.
+        <input type="checkbox" id="read-more-toggle" class="read-more-toggle" />
+        <label for="read-more-toggle" class="read-more-label"></label>
+        <span class="more-content">
+          The structure of a blockchain is designed to ensure the security of data
+          through its consensus mechanism which has a network of nodes that agree on the validity of transactions before
+          adding them to the blockchain. Blockchain is a combination of three leading technologies, cryptographic keys,
+          a
+          peer to peer network containing a shared ledger and a means of computing to store transactions and records of
+          the network.
       </p>
-    </div>
-    <aside class="blocks">
-      <h3>Blocks:</h3>
-      <p>A block in a chain is a combination of three main components:</p>
-      <div class="blocklist">
-        <ol>
-          <li>The header - contains metadata such as timestamps which has a random number used in the mining process and
-            the previous block's hash</li>
-          <li>The data secition - contains the main and actual information like transactions and smart contracts which
-            are stored in the block.</li>
-          <li>The hash - a unique cryptographic value that works as a representative of the entire block which is used
-            for verification purposes.</li>
-        </ol>
+      <div class="img-container">
+        <img src="Assets/Images/How it works.jpg" alt="how blockchain works" width="300" />
       </div>
+    </div>
+    <div class="blocks">
+      <h3>Blocks:</h3>
+    </div>
+    <aside class="blocklist">
+      <p>A block in a chain is a combination of three main components:</p>
+      <ol>
+        <li>The header - contains metadata such as timestamps which has a random number used in the mining process and
+          the previous block's hash</li>
+        <li>The data secition - contains the main and actual information like transactions and smart contracts which
+          are stored in the block.</li>
+        <li>The hash - a unique cryptographic value that works as a representative of the entire block which is used
+          for verification purposes.</li>
+      </ol>
     </aside>
   </section>
   <!----------------------------------- Use-cases ----------------------------------------------->
+  <div class="contact-us"><a href="#footer">Contact Us</a></div>
   <section class="page3" id="use-cases">
+    <div class="use-cases-text">
+      <h2>Use cases</h2>
+    </div>
     <ul class="companies">
-      <li><img src="Assets/icons/Kaleido.png" width="100 alt=" Kaleido-logo"></li>
-      <li><img src="Assets/icons/Novo Nordisk.png" width="100 alt=" Novo-Nordisk-logo"></li>
-      <li><img src="Assets/icons/Oracle.png" width="100 alt=" Oracle"></li>
-      <li><img src="Assets/icons/Republic.png" width="100 alt=" Republic"></li>
+      <div>
+        <li><img src="Assets/icons/Kaleido.png" width="100" alt="Kaleido-logo"></li>
+      </div>
+
+      <p class="Kaleido">
+        Kaleido - boasts blockchain solutions for running and deploingt ledgers across several industries, one being
+        government The company’s services can be utilized for risk reduction and auditing,
+        <input type="checkbox" id="read-more-toggle-2" class="read-more-toggle" />
+        <label for="read-more-toggle-2" class="read-more-label"></label>
+        <span class="more-content">
+          overall streamlining operations in the sectors of public health, education, customs and payment.
+          Kaleido’s solutions have been used by organizations like the United Nations, Centers for Disease Control and
+          Prevention and the Worldwide Fund for
+          Nature.
+        </span>
+      </p>
+
+      <div>
+        <li><img src="Assets/icons/Novo Nordisk.png" width="100" alt=" Novo-Nordisk-logo"></li>
+      </div>
+
+      <p class="Novo-Nordisk">
+        Novo Nordics - a global pharmaceutical and biotechnology company specializing in developing treatments for
+        chronic
+        diseases such as obesity Alzheimer’s and diabetes. based in Denmark.
+      </p>
+
+      <div>
+        <li><img src="Assets/icons/Oracle.png" width="100" alt=" Oracle"></li>
+      </div>
+
+      <p class="Oralcle">
+        Oracle - a company that uses intelligent track and trace application for supply chain management
+      </p>
+
+      <div>
+        <li><img src="Assets/icons/Republic.png" width="100" alt=" Republic"></li>
+      </div>
+
+      <p class="Republic">
+        Republic Real Estate, a division of Republic, offers a platform for crowdfunding real estate investments,
+        enabling
+        individuals to invest in various property types, such as residential developments, office spaces, and rental
+        properties.
+      </p>
+
     </ul>
-    <h2>Use cases</h2>
-    <p class="Kaleido">
-      Kaleido - boasts blockchain solutions for running and deploingt ledgers across several industries, one being
-      government The company’s services can be utilized for risk reduction and auditing, overall streamlining
-      <input type="checkbox" id="read-more-toggle" class="read-more-toggle" />
-      <label for="read-more-toggle" class="read-more-label"></label>
-      <span class="more-content">
-        operations in the sectors of public health, education, customs and payment. Kaleido’s solutions have been used
-        by organizations like the United Nations, Centers for Disease Control and Prevention and the Worldwide Fund for
-        Nature.
-
-    </p>
-    <p class="Novo-Nordisk">
-      Novo Nordics - a global pharmaceutical and biotechnology company specializing in developing treatments for chronic
-      diseases such as obesity Alzheimer’s and diabetes. based in Denmark.
-    </p>
-
-
-    <p class="Oralcle">
-      Oracle - a company that uses intelligent track and trace application for supply chain management
-    </p>
-
-
-    <p class="Republic">
-      Republic Real Estate, a division of Republic, offers a platform for crowdfunding real estate investments, enabling
-      individuals to invest in various property types, such as residential developments, office spaces, and rental
-      properties.
-    </p>
 
 
   </section>
 
   <!---------------------------- -------Web3 Zoher section ----------------------------------------------->
-<!-- i added id="web3" to your section to make the navbar locate this page //Jonas  -- thanks Jonas-->
+  <!-- i added id="web3" to your section to make the navbar locate this page //Jonas  -- thanks Jonas-->
   <section class="web3-page" id="web3">
-  <div class="web3-container">
-    <div class="left-column">
-      <h1 class="web3-title">Web3</h1>
-      <div class="web3-content">
+    <div class="web3-container">
+      <div class="left-column">
+        <h1 class="web3-title">Web3</h1>
+        <div class="web3-content">
           <!-- Text Block Section -->
           <section class="web3-text-block">
-              <p>
-                  Web3 represents a shift towards an ownership economy where users maintain control over their data and can directly monetize content.
-                   Unlike Web2, which is governed by centralized platforms, Web3 relies on decentralized blockchain technology.
-                    Transactions are conducted using cryptocurrencies like Bitcoin and Ethereum,
-                     and innovations like NFT memberships and DAOs play a key role in community-driven engagement and governance.
-              </p>
-              <img src="Assets/images/Web3.png" alt="Blockchain Icon representing Web 3.0" width="300px" height="300px">
+            <p>
+              Web3 represents a shift towards an ownership economy where users maintain control over their data and can
+              directly monetize content.
+              Unlike Web2, which is governed by centralized platforms, Web3 relies on decentralized blockchain
+              technology.
+              Transactions are conducted using cryptocurrencies like Bitcoin and Ethereum,
+              and innovations like NFT memberships and DAOs play a key role in community-driven engagement and
+              governance.
+            </p>
+            <img src="Assets/images/Web3.png" alt="Blockchain Icon representing Web 3.0" width="300px" height="300px">
           </section>
+        </div>
+      </div>
+      <div class="right-column">
+        <!--Comparison Block -->
+        <section class="web3-image-block">
+          <h2>Web2 vs. Web3: Platform vs. Ownership Economy</h2>
+          <p>
+            Web3 introduces an ownership-driven economy, contrasting with Web2's platform economy.
+            Users retain data ownership and monetize every element of their digital presence.
+            Technologies like blockchain and NFTs empower decentralization and zero waste production,
+            fostering a sustainable, user-centric ecosystem.
+          </p>
+        </section>
+        <!-- Technological Advancements Section -->
+        <section class="text-block">
+          <h2>Technological Advancements: Web3 vs Web2</h2>
+          <p>
+            Web3 is defined by decentralization, using edge computing, peer-to-peer networks, and blockchain for
+            distributed consensus.
+            Unlike Web2’s centralized structure, Web3 integrates AI for smarter, more autonomous systems.
+            Technologies like NFTs assign value to unique digital assets, while metaverse environments combine physical,
+            virtual,
+            and augmented realities, making Web3 a more immersive, user-driven ecosystem compared to Web2's static and
+            centrally controlled model.
+          </p>
+        </section>
       </div>
     </div>
-    <div class="right-column">
-          <!--Comparison Block -->
-          <section class="web3-image-block">
-              <h2>Web2 vs. Web3: Platform vs. Ownership Economy</h2>
-              <p>
-                  Web3 introduces an ownership-driven economy, contrasting with Web2's platform economy. 
-                  Users retain data ownership and monetize every element of their digital presence. 
-                  Technologies like blockchain and NFTs empower decentralization and zero waste production, 
-                  fostering a sustainable, user-centric ecosystem.
-              </p>
-          </section>
-          <!-- Technological Advancements Section -->
-          <section class="text-block">
-              <h2>Technological Advancements: Web3 vs Web2</h2>
-              <p>
-                  Web3 is defined by decentralization, using edge computing, peer-to-peer networks, and blockchain for distributed consensus.
-                   Unlike Web2’s centralized structure, Web3 integrates AI for smarter, more autonomous systems.
-                    Technologies like NFTs assign value to unique digital assets, while metaverse environments combine physical, virtual,
-                     and augmented realities, making Web3 a more immersive, user-driven ecosystem compared to Web2's static and centrally controlled model.
-              </p>
-          </section>
-    </div>
-  </div>
   </section>
 
   <footer id="footer">

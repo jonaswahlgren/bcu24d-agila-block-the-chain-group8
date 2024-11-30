@@ -1,51 +1,225 @@
 @use '_mobile-nav';
 
 @media screen and (min-width: 300px) {
-    :root {
-        --bg-color-body: #430c7d;
-        --bg-color-header-footer: #000000;
-        --bg-color-hover: #ffa98c;
-        --bg-color-important: #ffa98c;
-        --text-color-text-color: #ffffff;
-        --text-color-nav-text: #53edf1;
-        --text-color-rubric: #53edf1;
+  :root {
+    --bg-color-body: #430c7d;
+    --bg-color-header-footer: #000000;
+    --bg-color-hover: #ffa98c;
+    --bg-color-important: #ffa98c;
+    --text-color-text-color: #ffffff;
+    --text-color-nav-text: #53edf1;
+    --text-color-rubric: #53edf1;
+  }
+
+  body {
+    //please add the root colors and change this to the right color
+    background-color: var(--bg-color-body);
+  }
+
+  //also here
+  header {
+    background-color: rgba(37, 37, 37, 0);
+    height: 8vh;
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+  }
+
+  .page1 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5vw;
+
+    h1 {
+      font-size: 3rem;
+      text-align: center;
     }
-    body {
-        //please add the root colors and change this to the right color
-        background-color: var(--bg-color-body);
+
+    span {
+      font-size: 2rem;
+    }
+  }
+
+  .howitworks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    h2 {
+      font-size: 3rem;
+      font-weight: 300;
     }
 
-    //also here
-    header {
-        background-color: rgba(37, 37, 37, 0);
-        height: 8vh;
-        z-index: 3;
-        position: fixed;
-        width: 100%;
-
-
+    p {
+      font-size: 2rem;
 
     }
 
-
-
-
-
-    .page1 {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        padding: 5vw;
-
-        h1 {
-            font-size: 3rem;
-            text-align: center;
-        }
-
-        span {
-            font-size: 2rem;
-        }
+    h3 {
+      font-size: 3rem;
+      font-weight: 300;
     }
+
+    li {
+      padding: 1vh;
+      font-size: 2rem;
+    }
+
+    .img-container {
+      display: flex;
+      justify-content: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+
+    .blocklist {
+      display: flex;
+      flex-direction: column;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+
+  .contact-us {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 70px;
+    height: 70px;
+    background-color: #b826cb;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    animation: moveUp 3s infinite alternate;
+  }
+
+  @keyframes moveUp {
+    0% {
+      bottom: 20px;
+    }
+
+    100% {
+      bottom: 100px;
+    }
+  }
+
+  .contact-us:hover {
+    background-color: #dc06f8;
+    transform: scale(1.3);
+  }
+
+  a {
+    text-decoration: none;
+    color: #26ece9;
+  }
+
+  .companies {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 50vw;
+    justify-content: space-around;
+  }
+
+  .companies div {
+    padding: 20px;
+  }
+
+  .companies li {
+    display: flex;
+    justify-content: center;
+  }
+
+  .companies p {
+    color: white;
+  }
+
+  .read-more-toggle {
+    display: none;
+  }
+
+  .more-content {
+    display: none;
+  }
+
+  .read-more-label {
+    color: #A4C639;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: 5px;
+  }
+
+  .read-more-toggle:checked~.more-content {
+    display: inline;
+  }
+
+  .read-more-toggle:not(:checked)+.read-more-label::after {
+    content: "Read more";
+  }
+
+  .read-more-toggle:checked+.read-more-label::after {
+    content: "Read less";
+    color: #A4C639;
+  }
+
+  .read-more-label:hover {
+    color: rgb(251, 251, 251);
+  }
+
+  .page3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .use-cases-text {
+    display: flex;
+    align-items: center;
+  }
+
+  .use-cases-text h2 {
+    font-size: 2em;
+    font-weight: bolder;
+    color: #A4C639;
+    transform: translate(15px);
+    text-shadow: 4px 4px 5px rgb(0, 0, 0);
+    border: 3px solid #A4C639;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 30px;
+  }
 }
