@@ -152,27 +152,32 @@ nav ul li a {
     font-weight: 300;
   }
   .howitworks p {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    justify-content: center;
   }
   .howitworks h3 {
     font-size: 3rem;
     font-weight: 300;
   }
   .howitworks li {
-    padding: 1vh;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .howitworks .img-container {
     display: flex;
     justify-content: center;
     display: flex;
     justify-content: center;
+    height: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding: 30px;
   }
   .howitworks .blocklist {
     display: flex;
     flex-direction: column;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .contact-us {
     position: fixed;
