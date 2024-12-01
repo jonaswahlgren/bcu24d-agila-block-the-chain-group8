@@ -18,7 +18,7 @@
 
   //also here
   header {
-    background-color: rgba(37, 37, 37, 0);
+    background-color: var(--bg-color-header-footer);
     height: 8vh;
     z-index: 3;
     position: fixed;
@@ -33,13 +33,13 @@
     align-items: center;
     padding: 5vw;
 
-    h1 {
+    h1 {  /**Jonas may you like to change the color of h1 to --text-color-rubric: #53edf1; */
       font-size: 3rem;
       text-align: center;
     }
 
     span {
-      font-size: 2rem;
+      font-size: 2rem; /**Jonas may you like to change the color of h1 to --text-color-text-color: #ffffff; */
     }
   }
 
@@ -222,4 +222,133 @@
     border-radius: 30px;
     margin-top: 30px;
   }
+/***-----------------web3 Zoher-------------------***/
+
+  @media screen and (min-width: 300px) and (max-width: 1023px) {
+    .web3-page {
+        margin: 8vh 0 0 0;
+        padding: 0;
+        box-sizing: border-box;
+        height: auto;
+    }
+    
+    .web3-container {
+        
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+    }
+    
+    
+    .left-column,
+    .right-column {
+        margin: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .web3-title {
+        font-size: 3em; 
+        margin-bottom: 20px;
+        color: var(--bg-color-important);
+        text-align: center;
+    }
+    
+    .left-column p,
+    .right-column p {
+        font-size: 1.2rem;
+        text-align: center;
+        color: var(--text-color-text-color);
+        margin-bottom: 50px;
+    }
+    
+    .left-column h1,
+    .right-column h2 {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    .right-column h2 {
+        color: var(--text-color-rubric);
+    }
+    
+    .left-column img {
+        display: block;
+        margin: 10px auto;
+        width: clamp(280px, 100%, 400px); 
+        height: auto; 
+
+    }
+  
+    .web3-title {
+      font-size: 2.5em; 
+    }
+  
+  }
+  /***--------------web3 finished-----------------------***/
+  /***------------------footer zoher--------------------***/
+  @media screen and (min-width: 300px) and (max-width: 1023px) {
+    footer {
+        display: flex;
+        flex-direction: column; 
+        height: auto; 
+
+        background-color: var(--bg-color-header-footer); 
+        color: var(--text-color-text-color); 
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 0 20px; 
+        box-sizing: border-box; 
+    }
+
+    footer .copyright,
+    footer .footer-list,
+    footer #Top {
+        text-align: center; 
+        margin-bottom: 10px; 
+    }
+    footer .copyright {
+        font-size: 1rem; 
+        }
+    footer .footer-list {
+        /*display: flex; 
+        gap: 15px;*/
+        list-style: none;
+        padding: 0;
+        }
+    footer .footer-list li a {
+        color: var(--text-color-text-color); 
+        text-decoration: none; 
+        font-weight: bold; 
+        transition: color 0.3s ease; 
+        }
+    
+    footer .footer-list li a:hover {
+        color: var(--bg-color-important); 
+        }
+        
+        
+        footer #Top a {
+        color: var(--text-color-nav-text); 
+        text-decoration: none; 
+        font-weight: bold; 
+        transition: color 0.3s ease; 
+        }
+        
+        footer #Top a:hover {
+        color: var(--bg-color-important); 
+        }
+  }
+  /***------------------footer finished--------------------***/
+
+
 }
