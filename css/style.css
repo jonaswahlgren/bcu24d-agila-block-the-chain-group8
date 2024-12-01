@@ -146,21 +146,32 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+  }
+  .howitworks .howitworkstext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .howitworks h2 {
     font-size: 3rem;
     font-weight: 300;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
   }
   .howitworks p {
     font-size: 1.8rem;
-    justify-content: center;
+    color: rgb(255, 255, 255);
   }
   .howitworks h3 {
     font-size: 3rem;
     font-weight: 300;
+    color: rgb(255, 255, 255);
   }
   .howitworks li {
     font-size: 1.8rem;
+    color: rgb(255, 255, 255);
   }
   .howitworks .img-container {
     display: flex;
@@ -456,6 +467,23 @@ nav ul li a {
     font-size: 3rem;
     width: 500px;
     justify-self: center;
+  }
+  .howitworks {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .howitworks .howitworkstext {
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   /***-------------------------------web3 Zoher-------------------------***/
   .web3-page {
