@@ -12,11 +12,9 @@
   }
 
   body {
-    //please add the root colors and change this to the right color
     background-color: var(--bg-color-body);
   }
 
-  //also here
   header {
     background-color: var(--bg-color-header-footer);
     height: 8vh;
@@ -33,13 +31,13 @@
     align-items: center;
     padding: 5vw;
 
-    h1 {  /**Jonas may you like to change the color of h1 to --text-color-rubric: #53edf1; */
+    h1 {  /**Jonas may you like to change the color of h1 to --text-color-rubric: #53edf1; - Zohar */
       font-size: 3rem;
       text-align: center;
     }
 
     span {
-      font-size: 2rem; /**Jonas may you like to change the color of h1 to --text-color-text-color: #ffffff; */
+      font-size: 2rem; /**Jonas may you like to change the color of h1 to --text-color-text-color: #ffffff; - Zohar */
     }
   }
 
