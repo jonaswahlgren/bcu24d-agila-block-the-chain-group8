@@ -69,7 +69,8 @@
             grid-area: 3 / 7 / 11 / 12;
 
             img {
-                width: 600px;
+                width: 600px; /* Jonas, amazing work! However, you might want to adjust or remove the width of the image here. Currently, it's set to 600px, which is causing the page to exceed its intended width. To fix this, consider setting the width to a value between 300px and 413px. This will prevent the extra width and ensure the layout of the entire page is not affected. - Zohar */
+                /*i will send you a screenshot to show you what i mean  */
             }
         }
 
