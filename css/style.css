@@ -131,12 +131,12 @@ nav ul li a {
     align-items: center;
     padding: 5vw;
   }
-  .page1 h1 {
+  .page1 h1 { /**Jonas may you like to change the color of h1 to --text-color-rubric: #53edf1; */
     font-size: 3rem;
     text-align: center;
   }
   .page1 span {
-    font-size: 2rem;
+    font-size: 2rem; /**Jonas may you like to change the color of h1 to --text-color-text-color: #ffffff; */
   }
   .howitworks {
     display: flex;
