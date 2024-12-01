@@ -147,11 +147,14 @@ nav ul li a {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    box-sizing: border-box;
+    padding: 30px;
   }
   .howitworks .howitworkstext {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-sizing: border-box;
   }
   .howitworks h2 {
     font-size: 3rem;
@@ -191,6 +194,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
   }
   .contact-us {
     position: fixed;
