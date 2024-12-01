@@ -18,7 +18,7 @@
 
   //also here
   header {
-    background-color: rgba(37, 37, 37, 0);
+    background-color: var(--bg-color-header-footer);
     height: 8vh;
     z-index: 3;
     position: fixed;
