@@ -90,19 +90,42 @@
     .howitworks {
         display: flex;
         flex-direction: row;
-        width: 100%;
-        height: 100%;
+        height: 100vh;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        h2, h3 {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        p {
+            font-size: 2rem;
+            line-height: 1.2;
+        }
+        li {
+            font-size: 2rem;
+            line-height: 1.2;
+        }
         
         .howitworkstext {
-            width: 50%;
+            width: 30%;
             padding: 30px;
             box-sizing: border-box;
             display: flex;
             flex-direction: column;
             align-items: center;
+
+        }
+        .blocklist {
+            width: 30%;
+            padding: 30px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p {
+                text-align: center;
+            }
 
         }
 

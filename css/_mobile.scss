@@ -101,8 +101,11 @@
       -ms-flex-pack: center;
       justify-content: center;
       height: 400px;
-      object-fit: cover;
       padding: 30px;
+      img {
+        height: 100%;
+        width: 100%;
+      }
       
       
     }
