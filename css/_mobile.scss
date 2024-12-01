@@ -103,6 +103,8 @@
     }
   }
 
+
+  //* Use Cases *//
   .contact-us {
     position: fixed;
     right: 20px;
@@ -124,6 +126,7 @@
     animation: moveUp 3s infinite alternate;
   }
 
+  
   @keyframes moveUp {
     0% {
       bottom: 20px;
@@ -134,16 +137,19 @@
     }
   }
 
+  
   .contact-us:hover {
     background-color: #dc06f8;
     transform: scale(1.3);
   }
 
+  
   a {
     text-decoration: none;
     color: #26ece9;
   }
 
+  
   .companies {
     display: flex;
     flex-direction: column;
@@ -152,27 +158,33 @@
     justify-content: space-around;
   }
 
+  
   .companies div {
     padding: 20px;
   }
 
+  
   .companies li {
     display: flex;
     justify-content: center;
   }
 
+  
   .companies p {
     color: white;
   }
 
+  
   .read-more-toggle {
     display: none;
   }
 
+  
   .more-content {
     display: none;
   }
 
+  
   .read-more-label {
     color: #A4C639;
     cursor: pointer;
@@ -180,23 +192,28 @@
     margin-left: 5px;
   }
 
+  
   .read-more-toggle:checked~.more-content {
     display: inline;
   }
 
+  
   .read-more-toggle:not(:checked)+.read-more-label::after {
     content: "Read more";
   }
 
+  
   .read-more-toggle:checked+.read-more-label::after {
     content: "Read less";
     color: #A4C639;
   }
 
+  
   .read-more-label:hover {
     color: rgb(251, 251, 251);
   }
 
+  
   .page3 {
     display: flex;
     flex-direction: column;
@@ -206,11 +223,13 @@
     min-height: 100vh;
   }
 
+  
   .use-cases-text {
     display: flex;
     align-items: center;
   }
 
+  
   .use-cases-text h2 {
     font-size: 2em;
     font-weight: bolder;
