@@ -86,3 +86,7 @@ På måndag eftermiddag klockan 19:00 ska vi ha ett retro/ planeringsmöte infö
 2/12
 mötet närvarade Matilda, Zoher, Mohammed och Jonas
 vi har fått våra brancher att fungera och vi har reviewat det som är klart i sprinten och lagt i done. 
+vi pratade lite om presentationen och tankar som vi kunde ta med oss tills ikväll.
+Vi är alla klara med våra tasks i sprint 2.
+Mötet är ikväll klockan 19:00 då ska vi ha ett retro och presentationsplanering.
+![backlog20241202](/assets/printscreens/daily20241202.jpg).
