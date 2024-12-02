@@ -477,17 +477,19 @@ nav ul li a {
   .howitworks {
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    justify-content: center;
   }
   .howitworks h2, .howitworks h3 {
     font-size: 4rem;
     font-weight: bold;
   }
   .howitworks p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1.2;
   }
   .howitworks li {
@@ -496,7 +498,6 @@ nav ul li a {
   }
   .howitworks .howitworkstext {
     width: 30%;
-    padding: 30px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -504,7 +505,6 @@ nav ul li a {
   }
   .howitworks .blocklist {
     width: 30%;
-    padding: 30px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
