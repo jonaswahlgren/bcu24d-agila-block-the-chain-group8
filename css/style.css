@@ -134,10 +134,10 @@ nav ul li a {
   .page1 h1 { /**Jonas may you like to change the color of h1 to --text-color-rubric: #53edf1; - Zohar */
     font-size: 3rem;
     text-align: center;
-    color: #53edf1;
+    color: var(--text-color-rubric);
   }
   .page1 span {
-    color: #ffffff;
+    color: var(--text-color-text-color);
     font-size: 2rem; /**Jonas may you like to change the color of h1 to --text-color-text-color: #ffffff; - Zohar */
   }
   .howitworks {
@@ -447,7 +447,7 @@ nav ul li a {
     width: 100%;
   }
   header nav ul li :hover {
-    background-color: rgba(236, 236, 236, 0.358);
+    background-color: rgb(255, 255, 255);
     color: #000000;
   }
   header nav ul li a {
@@ -456,6 +456,7 @@ nav ul li a {
     justify-content: center;
   }
   .page1 {
+    min-height: 92vh;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
@@ -463,6 +464,7 @@ nav ul li a {
   }
   .page1 .img-container {
     grid-area: 3/7/11/12;
+    margin-left: 50px;
   }
   .page1 .img-container img {
     width: 600px;

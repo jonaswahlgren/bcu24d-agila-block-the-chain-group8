@@ -37,11 +37,11 @@
     h1 {  /**Jonas may you like to change the color of h1 to --text-color-rubric: #53edf1; - Zohar */
       font-size: 3rem;
       text-align: center;
-      color:#53edf1;
+      color:var(--text-color-rubric);
     }
 
     span {
-      color: #ffffff;
+      color: var(--text-color-text-color);
       font-size: 2rem; /**Jonas may you like to change the color of h1 to --text-color-text-color: #ffffff; - Zohar */
     }
   }
