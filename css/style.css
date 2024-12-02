@@ -62,7 +62,7 @@ button span {
 
 nav {
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.514);
+  background-color: rgba(0, 0, 0, 0.636);
   font-size: 1.5rem;
   width: 300px;
   height: 100vh;
@@ -89,6 +89,7 @@ nav ul {
   flex-direction: column;
   justify-content: space-evenly;
   font-size: 1.5em;
+  width: 100%;
 }
 nav ul li a {
   position: relative;
@@ -117,7 +118,6 @@ nav ul li a {
     background-color: var(--bg-color-body);
   }
   header {
-    background-color: var(--bg-color-header-footer);
     height: 8vh;
     z-index: 3;
     position: fixed;
@@ -131,12 +131,14 @@ nav ul li a {
     align-items: center;
     padding: 5vw;
   }
-  .page1 h1 { /**Jonas may you like to change the color of h1 to --text-color-rubric: #53edf1; */
+  .page1 h1 { /**Jonas may you like to change the color of h1 to --text-color-rubric: #53edf1; - Zohar */
     font-size: 3rem;
     text-align: center;
+    color: #53edf1;
   }
   .page1 span {
-    font-size: 2rem; /**Jonas may you like to change the color of h1 to --text-color-text-color: #ffffff; */
+    color: #ffffff;
+    font-size: 2rem; /**Jonas may you like to change the color of h1 to --text-color-text-color: #ffffff; - Zohar */
   }
   .howitworks {
     display: flex;
@@ -445,7 +447,8 @@ nav ul li a {
     width: 100%;
   }
   header nav ul li :hover {
-    background-color: rgba(0, 0, 0, 0.358);
+    background-color: rgba(236, 236, 236, 0.358);
+    color: #000000;
   }
   header nav ul li a {
     padding: 0;
@@ -456,6 +459,7 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
+    overflow: hidden;
   }
   .page1 .img-container {
     grid-area: 3/7/11/12;

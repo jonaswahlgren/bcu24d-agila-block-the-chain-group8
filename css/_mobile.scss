@@ -16,7 +16,10 @@
   }
 
   header {
-    background-color: var(--bg-color-header-footer);
+    //background-color: var(--bg-color-header-footer);
+    // i commented out cus its cleaner with no header on mobile.
+    //and also it screwed with the hovering of navbar in desktop mode
+    //the navbar also lost its nice blur effect if its not transparent
     height: 8vh;
     z-index: 3;
     position: fixed;
@@ -34,9 +37,11 @@
     h1 {  /**Jonas may you like to change the color of h1 to --text-color-rubric: #53edf1; - Zohar */
       font-size: 3rem;
       text-align: center;
+      color:#53edf1;
     }
 
     span {
+      color: #ffffff;
       font-size: 2rem; /**Jonas may you like to change the color of h1 to --text-color-text-color: #ffffff; - Zohar */
     }
   }
