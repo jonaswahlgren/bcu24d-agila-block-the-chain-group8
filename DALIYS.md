@@ -90,3 +90,12 @@ vi pratade lite om presentationen och tankar som vi kunde ta med oss tills ikvä
 Vi är alla klara med våra tasks i sprint 2.
 Mötet är ikväll klockan 19:00 då ska vi ha ett retro och presentationsplanering.
 ![backlog20241202](/assets/printscreens/daily20241202.jpg).
+
+3/12
+mötet närvarade Matilda, Zoher, Mohammed och Jonas 
+igår hade vi en retrocermoni där vi pratade om sprinten som varit med olika reflektioner om vad som varit bra och vad som har varit mindre bra i sprinten
+![retro20241202](/assets/printscreens/retro20241202.jpg). Idag hade vi ett mycket kortare möte då vi ska ha ett möte ikväll 19:00 för att se hur vi fördelar presentationen
+vi kom överrens om att det blir 8 slides var av matilda och jonas som närvarade på första demon tar färre slides.
+vi har fortfarande kvar i backlogen men vi tänker att det finns alltid förbättringar i projekt som man inte kan ta med för tidspressen.
+main som branch istället för developer kommer vi ändra tillbaka ikväll vid mötet 
+![backlog20241203](/assets/printscreens/daily20241203.jpg).
