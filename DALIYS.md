@@ -99,3 +99,10 @@ vi kom överrens om att det blir 8 slides var av matilda och jonas som närvarad
 vi har fortfarande kvar i backlogen men vi tänker att det finns alltid förbättringar i projekt som man inte kan ta med för tidspressen.
 main som branch istället för developer kommer vi ändra tillbaka ikväll vid mötet 
 ![backlog20241203](/assets/printscreens/daily20241203.jpg).
+
+4/12
+mötet närvarade Matilda, Zoher, Mohammed
+Mohammed har efter vårat möte på kvällen fixat en presentation. Vi alla tycker den ser bra ut och ikväll ska vi ha ett litet manus för att se att vi håller oss inom ramarna för tidspressen
+Vi funderar på att byta tillbaka till main från developer men vi gör det tillsammans ikväll
+![backlog20241204](/assets/printscreens/daily20241204.jpg).
+
